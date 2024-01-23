@@ -1,4 +1,5 @@
 <nav class="site-navigation">
+  <p>A site nav</p>
   <ul class="site-navigation-list">
     {.repeated section items}
 
