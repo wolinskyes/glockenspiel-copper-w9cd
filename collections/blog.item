@@ -3,7 +3,7 @@
 
   <!--WRAPPER-->
   <article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
-
+    <caption>A Blerg Perst</caption>
     <!--POST TILE-->
     <h1 class="title" data-content-field="title">
       {.passthrough?}
