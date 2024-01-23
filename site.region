@@ -20,6 +20,7 @@
           <h1 class="site-title-heading" data-content-field="site-title">
             <a href="/" class="site-title-link">{siteTitle}</a>
           </h1>
+          <h2>Hello World. This is Dev Mode for Squarespace</h2>
         {.end}
       </header>
 
