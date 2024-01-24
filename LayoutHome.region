@@ -1,0 +1,7 @@
+
+      <main class="content-container max-wrapper" role="main">
+        <div id="BlogRoll">
+          {squarespace.main-content}
+        </div>
+      </main>
+
