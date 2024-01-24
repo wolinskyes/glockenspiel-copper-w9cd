@@ -17,21 +17,35 @@
       <header class="site-header">
         <!-- site navigation -->
         <squarespace:navigation navigationId="siteNav" template="site-navigation" />
-        {.section website}
-          <caption><a href="/" class="site-title-link">{siteTitle}</a></caption>
-        {.end}
       </header>
 
-      <main class="content-container max-wrapper" role="main">
+      <main class="content-container" role="main">
         {.section website}
-         {@|apply hero/homepage-hero.block}
+          <section class="max-wrapper">
+            {@|apply hero/homepage-hero.block}
+          </section>
+
+          <section class="fullwidth-wrapper">
+            {@|apply hero/homepage-whoweare.block}
+          </section>
+
+          <section class="fullwidth-wrapper">
+            {@|apply hero/homepage-values.block}
+          </section>
+
+          <section class="fullwidth-wrapper">
+            {@|apply hero/homepage-impact.block}
+          </section>
+
+          <section class="fullwidth-wrapper">
+            {@|apply hero/homepage-social.block}
+          </section>
+
         {.end}
       </main>
 
 
-       <footer class="site-footer">
-        <squarespace:block-field id="footerBlocks" columns="12" />
-      </footer>
+      {@|apply common/footer.block}
     </div>
   </body>
 </html>

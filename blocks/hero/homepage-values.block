@@ -1,0 +1,9 @@
+<div class="homepage-values">
+  <div class="max-wrapper">
+    <h1>Our Values</h1>
+    <div class="homepage_values_posters">
+      <div class="posters_leftgroup"></div>
+      <div class="posters_rightgroup"></div>
+    </div>
+  </div>
+</div>

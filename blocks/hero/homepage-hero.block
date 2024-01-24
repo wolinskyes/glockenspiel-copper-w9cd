@@ -27,7 +27,7 @@
         <div class="poster_heroimg_cta">
           <a href="#">
             <h2>Get Involved</h2>
-            <button class="dot_button" href="#">
+            <button class="dot_button inverted" href="#">
               <span class="sr-only">View Resources</span>
               <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
             </button>

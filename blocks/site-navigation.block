@@ -4,6 +4,9 @@
       <span class="sr-only">Toggle Extra Menu Items</span>
       <img src="/assets/icons/drawer_open.svg" alt="Menu" width="60px" />
     </button>
+    {.section website}
+    <div id="SiteMiniTitle">Task Force &mdash; <span>{siteTitle}</span></div>
+    {.end}
   </div>
   <div id="TaskForceLogo">
     <a href="/" class="site-navigation-logo">

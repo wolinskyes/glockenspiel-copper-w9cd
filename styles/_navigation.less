@@ -9,6 +9,20 @@ nav.site-navigation {
   align-items: center;
   z-index: 20;
 
+  #SiteMiniTitle {
+    position: absolute;
+    left: calc(110px + 0rem);
+    top: 3rem;
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+
+    span {
+      color: @theme_orange;
+    }
+  }
+
   #DrawerNav {
 
     button {
@@ -71,4 +85,46 @@ nav.site-navigation {
     }
   }
 
+}
+
+footer {
+  background-color: @theme_ivory;
+  padding-top: 4rem;
+
+  .footer_ctas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 0 5rem 0;
+
+    .footer_cta {
+      max-width: 30%;
+      p:last-of-type {
+        margin-bottom: 4rem;
+      }
+
+      button {
+        margin-bottom: 0.75rem;
+      }
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul li a {
+      color: inherit;
+    }
+
+  }
+
+  .final_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 0 1rem 0;
+    border-top: 1px solid @theme_wine;
+  }
 }
