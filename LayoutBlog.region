@@ -22,9 +22,12 @@
         {.end}
       </header>
 
-      <div id="BlogRoll">
-        {squarespace.main-content}
-      </div>
+      <main class="content-container max-wrapper" role="main">
+        <div id="BlogRoll">
+          {squarespace.main-content}
+        </div>
+      </main>
+
 
        <footer class="site-footer">
         <squarespace:block-field id="footerBlocks" columns="12" />
