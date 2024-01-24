@@ -22,15 +22,21 @@
 
         <!-- site title or logo -->
         {.section website}
-          <h1 class="site-title-heading" data-content-field="site-title">
-            <a href="/" class="site-title-link">{siteTitle}</a>
-          </h1>
-          <h2>Hello World. This is Dev Mode for Squarespace Local</h2>
+        <!-- <h1 class="site-title-heading" data-content-field="site-title">
+          <a href="/" class="site-title-link">{siteTitle}</a>
+        </h1> -->
+        <caption><a href="/" class="site-title-link">{siteTitle}</a></caption>
         {.end}
       </header>
 
       <!-- cms content injection point -->
       <main class="content-container max-wrapper" role="main" data-content-field="main-content">
+
+        <h1 >Let's do something</h1><br/>
+        <h1>that matters together.</h1>
+        <h3>YWTF of Greater Lafayette is a movement led by womxn and nonbinary activists to fight for social justice.</h3>
+        <h2>Hello World. This is Dev Mode for Squarespace Local</h2>
+
        {squarespace.main-content}
       </main>
 
@@ -47,5 +53,6 @@
     <!-- other scripts, and footer code injection -->
     {squarespace-footers}
 
+    <script>console.log({@|json-pretty})</script>
   </body>
 </html>
