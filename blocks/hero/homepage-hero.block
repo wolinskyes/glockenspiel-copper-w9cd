@@ -1,6 +1,6 @@
 <div class="homepage-hero">
   <div class="homepage-hero__content">
-    <h1 class="homepage-hero__title">Hello World</h1>
+    <h1 class="homepage-hero__title">Hello World...title? {siteTitle}</h1>
     <p class="homepage-hero__subtitle">This is Dev Mode for Squarespace Local</p>
   </div>
 </div>

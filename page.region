@@ -13,6 +13,18 @@
     {squarespace-headers}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
-    This is a General Page
+    <div class="site-container">
+      <header class="site-header">
+        <!-- site navigation -->
+        <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+        {.section website}
+          <caption><a href="/" class="site-title-link">{siteTitle}</a></caption>
+        {.end}
+      </header>
+
+       <footer class="site-footer">
+        <squarespace:block-field id="footerBlocks" columns="12" />
+      </footer>
+    </div>
   </body>
 </html>

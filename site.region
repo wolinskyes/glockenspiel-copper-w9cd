@@ -38,6 +38,10 @@
         <h2>Hello World. This is Dev Mode for Squarespace Local</h2>
 
        {squarespace.main-content}
+
+        {.section website}
+         {@|apply hero/homepage-hero.block}
+        {.end}
       </main>
 
       <!--Footer with open block field -->
