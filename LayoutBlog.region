@@ -33,5 +33,8 @@
         <squarespace:block-field id="footerBlocks" columns="12" />
       </footer>
     </div>
+    {.section items.0}
+    <script>console.log({@|json-pretty})</script>
+    {.end}
   </body>
 </html>
