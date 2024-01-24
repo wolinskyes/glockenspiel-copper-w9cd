@@ -1,24 +1,36 @@
 <nav class="site-navigation">
-  <p>A site nav</p>
-  <ul class="site-navigation-list">
-    {.repeated section items}
+  <div id="DrawerNav">
+    <button class="drawer-toggle drawer-hamburger" type="button">
+      <span class="sr-only">Toggle Extra Menu Items</span>
+      <img src="/assets/icons/drawer_open.svg" alt="Menu" width="60px" />
+    </button>
+  </div>
+  <div id="TaskForceLogo">
+    <a href="/" class="site-navigation-logo">
+      <img src="/assets/TaskforceLogo.png" alt="We Are Task Force Indiana" width="210px" />
+    </a>
+  </div>
+  <div id="EvergreenNav">
+    <ul class="site-navigation-list">
+      {.repeated section items}
 
-      <li class="site-navigation-item {.section active} active-link{.end}">
+        <li class="site-navigation-item {.section active} active-link{.end}">
 
-        <!-- collection link -->
-        {.section collection}
-          <a href="{fullUrl}">{navigationTitle}</a>
-        {.end}
+          <!-- collection link -->
+          {.section collection}
+            <a href="{fullUrl}">{navigationTitle}</a>
+          {.end}
 
-        <!-- external link -->
-        {.section externalLink}
-          <a href="{url}"{.section newWindow} target="_blank"{.end}>
-            {title}
-          </a>
-        {.end}
+          <!-- external link -->
+          {.section externalLink}
+            <a href="{url}"{.section newWindow} target="_blank"{.end}>
+              {title}
+            </a>
+          {.end}
 
-      </li>
+        </li>
 
-    {.end}
-  </ul>
+      {.end}
+    </ul>
+  </div>
 </nav>
