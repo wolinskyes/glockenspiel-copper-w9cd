@@ -34,6 +34,8 @@ h1 {
   margin: 0 0 0.15em 0;
 
   background-color: white;
+  box-shadow: 0em 0 0 white, 0 0 0 white;
+  box-decoration-break: clone;
 
   a {
     font: inherit;
@@ -71,11 +73,14 @@ h2 {
 h3 {
   font-family:"Gilroy-Semibold";
   font-size: 1.5rem;
+  font-weight: normal;
   line-height: 1.5;
   margin-bottom: 1rem;
 }
 
-
+p {
+  font-size: 1.125rem;
+}
 
 // button reset
 button {
@@ -89,15 +94,36 @@ button {
 
   &.button {
     font-family:"Gilroy-Semibold";
-    font-weight: 700;
+    font-weight: normal;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem 2rem;
-    height: 4rem;
+    padding: 0.5rem 1.5rem;
+    height: 3.5rem;
+    line-height: 1;
     border-radius: 2rem;
-    border: 4px solid @theme_wine;
+    border: 3px solid @theme_wine;
+  }
+
+  &.dot_button {
+    font-family:"Gilroy-Semibold";
+    font-weight: normal;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 2rem;
+    line-height: 0;
+
+    background-color: @theme_graphite;
+
+    &.inverted {
+      background-color: @theme_wine;
+      color: white;
+    }
   }
 }
 

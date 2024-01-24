@@ -8,12 +8,17 @@
         <button class="button">Join Us</button>
       </div>
       <div class="poster_block_small block__goldbg">
-        <h2>Resource</h2>
+        <h2>Resources</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+        <button class="dot_button" href="#">
+          <span class="sr-only">View Resources</span>
+          <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
+        </button>
       </div>
       <div class="poster_block_medium block__bluebg">
         <h2>Events</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        <button class="button" href="#">View Events</button>
       </div>
     </div>
     <div class="posters_rightgroup">
@@ -22,6 +27,10 @@
         <div class="poster_heroimg_cta">
           <a href="#">
             <h2>Get Involved</h2>
+            <button class="dot_button" href="#">
+              <span class="sr-only">View Resources</span>
+              <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
+            </button>
           </a>
         </div>
       </div>

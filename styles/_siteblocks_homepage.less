@@ -1,0 +1,61 @@
+// --------------------------------------- Homepage
+
+.homepage-hero {
+  min-height: 80vh;
+  .homepage_hero_posters {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .posters_leftgroup {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+
+    margin-top: -80px;
+
+    .intro_block {
+      max-width: 78%;
+    }
+
+    .poster_block_small,
+    .poster_block_medium {
+      margin-left: auto;
+      margin-right: 0;
+    }
+  }
+
+  .posters_rightgroup {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    line-height: 0;
+
+    img {
+      width: 100%;
+    }
+
+    .poster_heroimg_cta {
+
+      color: @theme_wine;
+
+      a {
+        background-color: @theme_action;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem 1rem 2rem;
+        text-decoration: none;
+      }
+
+      h2 {
+        border: none;
+      }
+    }
+  }
+}
