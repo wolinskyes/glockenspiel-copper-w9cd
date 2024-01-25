@@ -2,5 +2,8 @@
   <div class="max-wrapper">
     <h1>We Believe In</h1>
     <h1>Our Friends</h1>
+    <div class="social_instafeed_wrap">
+      <squarespace:block-field id="instaFeedHome" columns="12"/>
+    </div>
   </div>
 </div>
