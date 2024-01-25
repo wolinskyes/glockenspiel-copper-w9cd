@@ -5,8 +5,19 @@
         <h1 class="super">Who</h1>
         <h1 class="super">We Are</h1>
         <p>YWTF of Greater Lafayette is a movement led by womxn and nonbinary activists to fight for social justice.</p>
+
+        <div class="poster_block_small type_minipic">
+          <div class="img__square_ratio">
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/6ec4f84f-49dd-439e-aae7-cef1123eb06e/fpo1.jpg" />
+          </div>
+          <div class="poster_block_small minipic_text">
+            <h2>Leadership by Example</h2>
+            <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          </div>
+        </div>
       </div>
       <div class="posters_rightgroup"></div>
+      <div class="posters_widegroup"></div>
     </div>
   </div>
 </div>

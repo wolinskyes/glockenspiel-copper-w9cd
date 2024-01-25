@@ -13,6 +13,37 @@
   padding: @poster_block_padding;
   background-color: @theme_orange;
 
+  &.type_minipic {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+
+    .poster_block_small {
+      flex-basis: 50%;
+      width: unset;
+      padding-bottom: 0;
+    }
+
+    .img__square_ratio {
+      flex-basis: 50%;
+      width: unset;
+      // height: 100%;
+      position: relative;
+      top: 0;
+      left: 0;
+      line-height: 0;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
   h2 {
     color: inherit;
     border-color: inherit;

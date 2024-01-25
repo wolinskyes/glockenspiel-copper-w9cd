@@ -16,10 +16,16 @@
   font-style:bold;font-weight:700;
 }
 
+html,
 body {
-  font-size: 12px;
+  font-size: 14px;
   color: @theme_wine;
   -webkit-font-smoothing: antialiased;
+
+  // responsive rule for 1280px and up
+  @media screen and (max-width: 1280px) {
+    font-size: 10px;
+  }
 }
 
 h1 {
