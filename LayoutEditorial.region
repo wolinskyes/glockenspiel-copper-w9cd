@@ -12,7 +12,17 @@
     <!-- include system scripts, page meta, and header code injection -->
     {squarespace-headers}
   </head>
-  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
-    This is an Editorial Page
+  <body id="{squarespace.page-id}" class="standard_page {squarespace.page-classes}">
+    <div class="site-container">
+      <header class="site-header">
+        <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+      </header>
+      <main class="content-container max-wrapper" role="main" data-content-field="main-content">
+        <div class="editorial_content_wrap">
+          {squarespace.main-content}
+        </div>
+      </main>
+      {@|apply common/footer.block}
+    </div>
   </body>
 </html>
