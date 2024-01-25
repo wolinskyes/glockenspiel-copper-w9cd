@@ -104,6 +104,55 @@
 
 .homepage-values {
   background-color: @theme_gold;
+  background-image: url('https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/f719b993-5bcb-448a-976a-7710065fbd33/fpo_bkg1.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  min-height: 50vw;
+  padding: 300px 0 4rem 0;
+  margin-top: -150px;
+
+  // 3 col grid, masonry style
+  .homepage_values_posters {
+    column-count: 3;
+    column-gap: 0;
+    align-content: center;
+    width: 90%;
+    margin: 0 auto;
+    // max-height: 100vh;
+  }
+
+  .poster_block_value {
+    line-height: 0;
+    // min-height: 30vh;
+    display: inline-block;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+
+    .value_inner {
+      line-height: initial;
+      padding: @poster_block_padding;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    h2 {
+      color: inherit;
+      border:none;
+    }
+
+    p {
+      color: inherit;
+    }
+  }
+
+  .poster_block_value:nth-child(1) {
+    margin-top: 10vh;
+  }
+
 }
 
 .homepage-impact {
