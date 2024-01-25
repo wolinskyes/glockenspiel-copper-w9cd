@@ -2,7 +2,9 @@
   <div class="max-wrapper">
     <div class="homepage_whoweare_posters">
       <div class="posters_leftgroup">
-        <h1 class="super"><strong>Who</strong>We Are</h1>
+        <h1 class="super">Who</h1>
+        <h1 class="super">We Are</h1>
+        <p>YWTF of Greater Lafayette is a movement led by womxn and nonbinary activists to fight for social justice.</p>
       </div>
       <div class="posters_rightgroup"></div>
     </div>
