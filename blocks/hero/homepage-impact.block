@@ -1,5 +1,25 @@
 <div class="homepage-impact">
   <div class="max-wrapper">
-    <h1>Impact</h1>
+    <div class="impact_content">
+      <div class="impact_group impact_intro block__graphitebg">
+        <h2>Our Impact</h2>
+        <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+      </div>
+      <div class="impact_group">
+        <h1 class="super">100</h1>
+        <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </div>
+      <div class="impact_group">
+        <h1 class="super">100</h1>
+        <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </div>
+      <div class="impact_group">
+        <h1 class="super">100</h1>
+        <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </div>
+    </div>
+    <div class="impact_cta">
+      <button class="super_cta_button">Take Action With Us</button>
+    </div>
   </div>
 </div>

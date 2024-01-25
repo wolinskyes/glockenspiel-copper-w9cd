@@ -158,6 +158,46 @@
 .homepage-impact {
   background: @theme_gold;
   background: linear-gradient(0deg, @theme_forest 50%, @theme_gold 50%);
+
+  .impact_content {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+  }
+
+  .impact_group {
+    max-width: 25%;
+    padding: @poster_block_padding;
+  }
+
+  h1 {
+    box-shadow: none;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .impact_intro {
+    padding: @poster_block_padding;
+
+    h2 {
+      color: inherit;
+      border-color: inherit;
+    }
+    p {
+      color: inherit;
+    }
+  }
+
+  .impact_cta {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+
 }
 
 .homepage-social {
