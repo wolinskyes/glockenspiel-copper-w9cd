@@ -64,13 +64,40 @@
 .homepage-whoweare {
   background-color: @theme_wine;
   color: white;
-  padding: 4rem 0 4rem 0;
+  padding: 300px 0 4rem 0;
+  margin-top: -150px;
 
-  .posters_leftgroup {
+
+  .homepage_whoweare_posters {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .posters_leftgroup,
+  .posters_rightgroup {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     width: 50%;
+  }
+
+  .posters_leftgroup {
+    align-items: flex-start;
+
+    p {
+      margin-bottom: 5rem;
+    }
+  }
+
+  .posters_widegroup {
+    width: 100%;
+
+    .poster_block_small {
+      width: 50%;
+      margin: 0 auto;
+      flex-direction: row-reverse;
+    }
   }
 
 }

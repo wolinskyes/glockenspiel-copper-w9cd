@@ -28,6 +28,12 @@
       padding-bottom: 0;
     }
 
+    // nested:
+    .poster_block_small {
+      background: inherit;
+      color: inherit;
+    }
+
     .img__square_ratio {
       flex-basis: 50%;
       width: unset;
@@ -61,7 +67,7 @@
   width: 40vw;
   padding: @poster_block_padding;
   background-color: @theme_moss;
-  color: @theme_wine;
+  color: @theme_graphite;
 
   h2  {
     color: inherit;
@@ -84,5 +90,14 @@
 .block__bluebg {
   background-color: @theme_blue;
   color: white;
+}
 
+.block__blushbg {
+  background-color: @theme_blush;
+  color: @theme_wine;
+}
+
+.block__graphitebg {
+  background-color: @theme_graphite;
+  color: white;
 }
