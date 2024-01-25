@@ -3,6 +3,7 @@
     <div class="impact_content">
       <div class="impact_group impact_intro block__graphitebg">
         <h2>Our Impact</h2>
+        <squarespace:block-field id="blockField1" columns="12"/>
         <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
       </div>
       <div class="impact_group">
