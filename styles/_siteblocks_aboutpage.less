@@ -12,12 +12,12 @@
 
   .posters_leftgroup {
     width: 50%;
-
-   & > p {
-      padding-right: 4rem;
-      margin-bottom: 10rem;
-    }
   }
+
+  .intro_block h3 {
+    padding-right: 4rem;
+    margin-bottom: 10rem;
+   }
 
   .posters_rightgroup {
     width: 50%;
@@ -31,7 +31,6 @@
 
 .about-leadership {
   background-color: @theme_forest;
-
   background: linear-gradient(180deg,
     @theme_forest 40%,
     @theme_graphite 40%,
@@ -50,8 +49,12 @@
 
   .about_leadership_posters {
     padding: 3rem 0;
+    color: white;
     h1 {
       display: block;
+    }
+    h3, p {
+      color: inherit;
     }
     button {
       display: inline-block;
@@ -77,16 +80,41 @@
     margin-bottom: 6rem;
     &:nth-of-type(1n) {
       .posters_leftgroup {
-        margin-top: 250px;
+        margin-top: 150px;
       }
     }
 
     &:nth-of-type(3n) {
       flex-direction: row-reverse;
+      .poster_block_medium {
+        margin: auto 0 0 0;
+      }
     }
 
     &:last-of-type {
       margin-bottom: 0rem;
     }
+  }
+}
+
+.about-timeline {
+  background: @theme_gold;
+  background: linear-gradient(0deg, @theme_ivory 25%, @theme_gold 25%);
+  min-height: 500px;
+  padding-top: 200px;
+  h1 {
+    display: block;
+  }
+
+  .max-wrapper > h3 {
+    max-width: 50%;
+    margin: 3rem 0 5rem 0;
+  }
+
+  .timeline-wrapper {
+    width:100vw;
+    overflow-x: scroll;
+    background-color: @theme_blush;
+    min-height: 500px;
   }
 }

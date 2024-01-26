@@ -1,9 +1,10 @@
 <div class="about-leadership">
   <div class="max-wrapper">
     <div class="about_leadership_posters">
-      <div class="posters_leftgroup">
+      <div class="posters_leftgroup intro_block">
         <h1>Leadership</h1>
         <h1>Heading</h1>
+        <h3>Lorem Ih3sum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
       </div>
       <div class="posters_rightgroup">
         <button class="neon_button">@taskforce_321</button>
@@ -15,7 +16,7 @@
     <!-- ONE -->
     <div class="about_leadership_group">
       <div class="posters_leftgroup">
-        <div class="poster_block_medium block__graphitebg">
+        <div class="poster_block_medium block__jetbg">
           <h2>CTA Headline</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
           <button class="button">Button Action</button>

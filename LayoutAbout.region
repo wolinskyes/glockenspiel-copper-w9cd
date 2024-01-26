@@ -23,7 +23,12 @@
         <section class="max-wrapper">
           {@|apply hero/about-hero.block}
         </section>
+        <section class="fullwidth-wrapper">
           {@|apply hero/about-leadership.block}
+        </section>
+        <section class="fullwidth-wrapper">
+          {@|apply hero/about-timeline.block}
+        </section>
 
         {.end}
       </main>

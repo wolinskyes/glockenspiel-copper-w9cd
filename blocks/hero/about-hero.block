@@ -1,10 +1,10 @@
 <div class="about-hero">
   <div class="max-wrapper">
     <div class="about_hero_posters">
-      <div class="posters_leftgroup">
+      <div class="posters_leftgroup intro_block">
         <h1 class="super">About</h1>
         <h1 class="super">Us</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h3>
         <div class="poster_block_medium block__orangebg">
           <h2>CTA Headline</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
