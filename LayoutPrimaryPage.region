@@ -21,7 +21,7 @@
       <main class="content-container" role="main">
         {.section website}
         <section class="max-wrapper">
-          {@|apply hero/about-hero.block}
+          <squarespace:block-field id="PrimaryPageContent" columns="12" />
         {.end}
       </main>
       {@|apply common/footer.block}

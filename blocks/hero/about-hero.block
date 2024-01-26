@@ -4,8 +4,19 @@
       <div class="posters_leftgroup">
         <h1 class="super">About</h1>
         <h1 class="super">Us</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <div class="poster_block_medium block__orangebg">
+          <h2>CTA Headline</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+          <button class="button">Button Action</button>
+        </div>
       </div>
-      <div class="posters_rightgroup"></div>
+      <div class="posters_rightgroup">
+        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/894a0d70-cf0f-4f24-b2da-2b0ed286324a/fpo4.jpg" />
+        <div class="poster_block_small block__caption">
+          <h4>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h4>
+        </div>
+      </div>
     </div>
   </div>
 </div>

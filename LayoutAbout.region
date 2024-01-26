@@ -22,6 +22,7 @@
         {.section website}
         <section class="max-wrapper">
           {@|apply hero/about-hero.block}
+          {@|apply hero/about-leadership.block}
         </section>
         {.end}
       </main>
