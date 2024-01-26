@@ -1,6 +1,6 @@
 <div class="about-leadership">
   <div class="max-wrapper">
-    <div class="about_hero_posters">
+    <div class="about_leadership_posters">
       <div class="posters_leftgroup">
         <h1>Leadership</h1>
         <h1>Heading</h1>
@@ -11,7 +11,9 @@
       </div>
     </div>
 
-    <div class="about_leadership_posters">
+    <!-- Begin Leadership Blocks -->
+    <!-- ONE -->
+    <div class="about_leadership_group">
       <div class="posters_leftgroup">
         <div class="poster_block_medium block__graphitebg">
           <h2>CTA Headline</h2>
@@ -26,6 +28,42 @@
         </div>
       </div>
     </div>
+
+    <!-- TWO -->
+    <div class="about_leadership_group">
+      <div class="posters_leftgroup">
+        <div class="poster_block_medium block__mossbg">
+          <h2>CTA Headline</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+          <button class="button">Button Action</button>
+        </div>
+      </div>
+      <div class="posters_rightgroup">
+        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/42741bab-c02c-46f3-b46e-51037f597896/fpo5.jpg" />
+        <div class="poster_block_small block__caption">
+          <h4>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- THREE -->
+    <div class="about_leadership_group">
+      <div class="posters_leftgroup">
+        <div class="poster_block_medium block__winebg">
+          <h2>CTA Headline</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+          <button class="button">Button Action</button>
+        </div>
+      </div>
+      <div class="posters_rightgroup">
+        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/42741bab-c02c-46f3-b46e-51037f597896/fpo5.jpg" />
+        <div class="poster_block_small block__caption">
+          <h4>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h4>
+        </div>
+      </div>
+    </div>
+    <!-- END Leadership Blocks -->
+
 
   </div>
 </div>

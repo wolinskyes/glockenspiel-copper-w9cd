@@ -22,8 +22,9 @@
         {.section website}
         <section class="max-wrapper">
           {@|apply hero/about-hero.block}
-          {@|apply hero/about-leadership.block}
         </section>
+          {@|apply hero/about-leadership.block}
+
         {.end}
       </main>
       {@|apply common/footer.block}

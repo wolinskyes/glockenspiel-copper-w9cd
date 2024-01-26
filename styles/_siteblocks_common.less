@@ -1,5 +1,25 @@
 @poster_block_padding: 0.5rem 2rem 2rem 2rem;
 
+.posters_leftgroup {
+  .poster_block_small,
+  .poster_block_medium {
+    margin: 0 0 0 auto;
+  }
+}
+
+.posters_leftgroup,
+.posters_rightgroup {
+  line-height: 0;
+
+  * {
+    line-height: initial;
+  }
+
+  img {
+    line-height: 0;
+  }
+}
+
 .posters_leftgroup h1.super {
   &:first-of-type {
     background-color: @theme_action;
@@ -79,6 +99,10 @@
     color: inherit;
     margin-top: 3rem;
   }
+}
+
+.poster_block_heroimg {
+  line-height: 0;
 }
 
 // Mod styles
