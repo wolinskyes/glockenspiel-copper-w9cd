@@ -1,0 +1,6 @@
+<div class="events_collection_wrap">
+  <div class="events_collection_filter">
+
+  </div>
+  <div class="events_collection_list"></div>
+</div>
