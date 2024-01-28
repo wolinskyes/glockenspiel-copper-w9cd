@@ -1,11 +1,22 @@
 <div class="events-hero">
   <div class="events_hero_posters">
     <div class="posters_leftgroup intro_block">
+      <h1 class="super">Our</h1>
       <h1 class="super">Events</h1>
       <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</h3>
+      <div class="poster_block_small block__goldbg">
+        <h2>Title here</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+        <button class="dot_button" href="#">
+          <span class="sr-only">View Resources</span>
+          <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
+        </button>
+      </div>
     </div>
-  </div>
-  <div class="posters_rightgroup">
+    <div class="posters_rightgroup">
+      <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/6c0a48cd-277d-44fe-ada8-8fcec09c7735/fpo6.jpg" />
+      <img class="icon" src="/assets/icons/icon_insta.svg" />
+    </div>
   </div>
 </div>
 

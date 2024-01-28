@@ -1,3 +1,128 @@
 .events-hero {
-  // .events
+  margin-bottom: 5rem;
+  .events_hero_posters {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .icon {
+      width: auto;
+    }
+  }
+
+  .posters_leftgroup {
+    width: 50%;
+    h1 {
+      display: block;
+    }
+
+    & > h3 {
+      padding-right: 4rem;
+      margin-bottom: 5rem;
+    }
+  }
+
+  .posters_rightgroup {
+    width: 50%;
+  }
+}
+
+.events_collection_filter {
+  width: 50%;
+  height: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 4rem;
+
+  &:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 60px;
+    right: 0;
+    pointer-events: none;
+    background-color: @theme_action;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-image: url(/assets/icons/icon_down_arrow.svg);
+    // center background image and don't repeat
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .filter_title {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 0 2rem 0 2rem;
+    margin: 0;
+  }
+
+  select {
+    position: relative;
+    border: 0;
+    background-color: @theme_ivory;
+    height: 100%;
+    padding: 0 2rem 0 2rem;
+    font-family:"Gilroy-Semibold";
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.5;
+    flex-grow: 1;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+  }
+}
+
+.events_collection_list {
+  margin-top: 12rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.events_item {
+  width: 100%;
+  background-color: @theme_gold;
+  // margin-top: 5rem;
+  margin-bottom: 3rem;
+  height: max-content;
+  display: inline-block;
+
+
+  img {
+    width: 100%;
+  }
+
+  .events_item_body {
+    padding:  0.5rem 2rem 2rem 2rem;
+  }
+
+  // &:first-child {
+  //   margin-top: -3rem;
+  // }
+
+  &:nth-child(odd) {
+    background-color: @theme_ivory;
+    margin-top: -6rem;
+  }
+
+  &:nth-child(2n+1) {
+    background-color: @theme_ivory;
+  }
+
+  &:nth-child(3n+1) {
+    background-color: @theme_moss;
+  }
+
 }
