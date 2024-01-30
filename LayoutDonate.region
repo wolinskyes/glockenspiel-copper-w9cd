@@ -23,15 +23,15 @@
         <section class="max-wrapper">
           {@|apply hero/donate-hero.block}
         </section>
-        <section class="max-wrapper">
+
           {@|apply hero/donate-types.block}
-        </section>
-        <section class="max-wrapper">
+
+
           {@|apply hero/donate-builders.block}
-        </section>
-        <section class="max-wrapper">
+
+
           {@|apply hero/donate-faq.block}
-        </section>
+
 
 
         {.end}

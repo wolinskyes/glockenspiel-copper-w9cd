@@ -1,1 +1,18 @@
-<div class="donate-builders"></div>
+<div class="donate-builders">
+  <div class="max-wrapper">
+    <h2>Thank You to our Movement Builders</h2>
+    <div class="logo_container">
+      <div class="logo_item"></div>
+      <div class="logo_item"></div>
+      <div class="logo_item"></div>
+      <div class="logo_item"></div>
+      <div class="logo_item"></div>
+
+      <div class="logo_item"></div>
+      <div class="logo_item"></div>
+      <div class="logo_item"></div>
+      <div class="logo_item"></div>
+    </div>
+    <button class="super_cta_button">Become a Movement Builder</button>
+  </div>
+</div>

@@ -1,1 +1,31 @@
-<div class="donate-types"></div>
+<div class="fullwidth-wrap donate-types">
+  <div class="max-wrapper donate_types_wrapper">
+
+    <div class="donate_card">
+      <h3>General Donations</h3>
+      <div class="donate_corner_img"></div>
+      <div class="donate_content">
+        <h2>Thank You</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+        <div class="donate_content_cta">
+          <button class="button bright_button">Paypal</button>
+          <button class="button bright_button">Venmo</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="donate_card alt_bg">
+      <h3>The Replenish Fund</h3>
+      <div class="donate_corner_img"></div>
+      <div class="donate_content">
+        <h2>The Collective</h2>
+        <p>The REplenish Fund, managed by The Collective, raises funds to support the leadership and political development of BIPOC organizers and activists in the Midwest.          </p>
+        <div class="donate_content_cta">
+          <button class="button orange_button">Paypal</button>
+          <button class="button orange_button">Venmo</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
