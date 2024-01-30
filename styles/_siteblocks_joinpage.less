@@ -2,7 +2,27 @@
   background: linear-gradient(0deg, @theme_blush 10%, @theme_ivory 10%);
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
 .join-hero {
+  position: relative;
+  #JoinBadge {
+    position: absolute;
+    top: 4rem;
+    left: -2.5rem;
+    width: 160px;
+    height: 160px;
+    transform-origin: center;
+    animation: rotate 10s linear infinite;
+  }
+
   .join_hero_posters {
     display: flex;
     flex-direction: row;

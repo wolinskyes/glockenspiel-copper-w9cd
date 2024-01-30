@@ -2,6 +2,9 @@
   <div class="join-hero max-wrapper">
     <div class="join_hero_posters">
       <div class="posters_leftgroup">
+        <div id="JoinBadge">
+          <img src="/assets/join_badge.svg" alt="Join Task Force" width="100px" />
+        </div>
         <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/6ec4f84f-49dd-439e-aae7-cef1123eb06e/fpo1.jpg" />
         <div class="poster_block_small block__orangebg">
           <h2>Reason</h2>
