@@ -15,7 +15,9 @@
       <div class="memberships_item">
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
-          <div class="membership_item_image"></div>
+          <div class="membership_item_image">
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/7b4ed397-c823-44b0-98cb-20bc01835f03/fpo7.jpg" />
+          </div>
           <div class="membership_item_content">
             <h2>Membership Type</h2>
             <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -29,7 +31,9 @@
       <div class="memberships_item">
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
-          <div class="membership_item_image"></div>
+          <div class="membership_item_image">
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/7b4ed397-c823-44b0-98cb-20bc01835f03/fpo7.jpg" />
+          </div>
           <div class="membership_item_content">
             <h2>Membership Type</h2>
             <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>

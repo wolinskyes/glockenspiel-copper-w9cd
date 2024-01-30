@@ -89,4 +89,80 @@
       }
     }
   }
+
+  .memberships_list {
+    margin-top: 5rem;
+  }
+
+  .memberships_item {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 8rem;
+
+    &:nth-of-type(1n) .membership_item_content {
+      background-color: @theme_wine;
+      color: white;
+    }
+
+    &:nth-of-type(2n) .membership_item_content {
+      background-color: @theme_ivory;
+      color: @theme_wine;
+    }
+    &:nth-of-type(3n) .membership_item_content {
+      background-color: @theme_forest;
+      color: white;
+    }
+    &:nth-of-type(4n) .membership_item_content {
+      background-color: @theme_gold;
+      color: @theme_wine;
+    }
+
+    .collapse_btn {
+      background-color: @theme_orange;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem;
+      position: absolute;
+      top: -40px;
+      left: 0;
+      height: 40px;
+    }
+
+    .membership_item_overview {
+      width: 50%;
+    }
+
+    .membership_item_image,
+    .membership_item_image img {
+      width: 100%;
+      height: auto;
+      line-height: 0;
+    }
+
+    .membership_item_content {
+      background-color: @theme_moss;
+      padding: @poster_block_padding;
+
+      h2 {
+        color: inherit;
+        border-color: inherit;
+      }
+
+    }
+
+    .membership_form_embed {
+      width: 50%;
+      padding: @poster_block_padding;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+  }
 }
