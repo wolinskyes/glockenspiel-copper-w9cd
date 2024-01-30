@@ -1,0 +1,73 @@
+<div class="fullwidth-wrapper join-memberships">
+  <div class="max-wrapper">
+    <div class="memberships_filter">
+      <h2>Quick Jump</h2>
+      <ul>
+        <li><a class="button" href="#">Membership Type</a></li>
+        <li><a class="button" href="#">Membership Type</a></li>
+        <li><a class="button" href="#">Membership Type</a></li>
+        <li><a class="button" href="#">Membership Type</a></li>
+      </ul>
+    </div>
+
+    <div class="memberships_list">
+
+      <div class="memberships_item">
+        <div class="collapse_btn">Collapse</div>
+        <div class="membership_item_overview">
+          <div class="membership_item_image"></div>
+          <div class="membership_item_content">
+            <h2>Membership Type</h2>
+            <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          </div>
+        </div>
+        <div class="membership_form_embed">
+          form here
+        </div>
+      </div>
+
+      <div class="memberships_item">
+        <div class="collapse_btn">Collapse</div>
+        <div class="membership_item_overview">
+          <div class="membership_item_image"></div>
+          <div class="membership_item_content">
+            <h2>Membership Type</h2>
+            <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          </div>
+        </div>
+        <div class="membership_form_embed">
+          form here
+        </div>
+      </div>
+
+      <div class="memberships_item">
+        <div class="collapse_btn">Collapse</div>
+        <div class="membership_item_overview">
+          <div class="membership_item_image"></div>
+          <div class="membership_item_content">
+            <h2>Membership Type</h2>
+            <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          </div>
+        </div>
+        <div class="membership_form_embed">
+          form here
+        </div>
+      </div>
+
+      <div class="memberships_item">
+        <div class="collapse_btn">Collapse</div>
+        <div class="membership_item_overview">
+          <div class="membership_item_image"></div>
+          <div class="membership_item_content">
+            <h2>Membership Type</h2>
+            <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          </div>
+        </div>
+        <div class="membership_form_embed">
+          form here
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -12,7 +12,7 @@
     <!-- include system scripts, page meta, and header code injection -->
     {squarespace-headers}
   </head>
-  <body id="{squarespace.page-id}" class="primary_page {squarespace.page-classes}">
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
     <div class="site-container">
       <header class="site-header">
         <squarespace:navigation navigationId="siteNav" template="site-navigation" />
@@ -20,14 +20,8 @@
 
       <main class="content-container" role="main">
         {.section website}
-        <section class="max-wrapper">
           {@|apply hero/join-hero.block}
-        </section>
-        <section class="max-wrapper">
           {@|apply hero/join-memberships.block}
-        </section>
-
-
         {.end}
       </main>
       {@|apply common/footer.block}
