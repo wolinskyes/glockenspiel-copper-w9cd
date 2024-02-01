@@ -34,6 +34,7 @@
   background: linear-gradient(0deg, @theme_graphite 40%, @theme_blush 40%);
   padding-bottom: 4rem;
 
+
   .donate_types_wrapper {
     display: flex;
     flex-direction: row;
@@ -41,16 +42,29 @@
   }
 
   .donate_card {
+    position: relative;
     background-color: white;
     border-radius: 1rem;
     padding: @poster_block_padding;
     width: calc(50% - 1rem);
+
+    .donate_corner_img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 150px;
+      background: @theme_wine;
+      border-top-right-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+    }
 
     .donate_content {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-between;
+      margin-top: 50px;
     }
 
     h2 {
@@ -106,4 +120,41 @@
     margin: 0 auto;
   }
 }
-.donate-faq {}
+.donate-faq {
+  background-color: @theme_wine;
+  padding-top: 4rem;
+
+  .faq_heading h1 {
+    color: inherit;
+    border: none;
+    display: block;
+
+    height: fit-content;
+  }
+
+  .faq_heading {
+    width: 50%;
+
+  }
+
+  .max-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .faq_container {
+    width: 50%;
+    color: white;
+
+    .faq_item {
+      border-top: 1px solid white;
+      padding-bottom: 2rem;
+    }
+
+    h3 {
+      color: @theme_blush;
+    }
+  }
+}
