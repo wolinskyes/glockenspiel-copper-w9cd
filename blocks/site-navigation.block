@@ -1,4 +1,5 @@
 <nav class="site-navigation">
+  {@|apply common/back-to-top.block}
   <div id="DrawerNav">
     <button class="drawer-toggle drawer-hamburger" type="button">
       <span class="sr-only">Toggle Extra Menu Items</span>

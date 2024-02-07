@@ -1,3 +1,23 @@
+## YWTF Squarespace Template!
+
+### Install dev tools:
+
+```
+npm install
+
+rollup --config rollup.config.js --bundleConfigAsCjs
+```
+
+OR to auto-refresh:
+
+```
+rollup --config rollup.config.js --bundleConfigAsCjs --watch
+
+```
+
+----
+
+
 Base Template
 ------------------------------
 

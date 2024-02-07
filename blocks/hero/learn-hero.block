@@ -1,0 +1,35 @@
+<div class="learn-hero">
+  <div class="learn_hero_posters max-wrapper">
+    <div class="posters_leftgroup intro_block">
+      <h1>Resource</h1>
+      <h1>Library</h1>
+      <h3>A word about our library...</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+    </div>
+    <div class="posters_rightgroup">
+      <div class="poster_block_small block__actionbg type_minipic">
+
+        <div class="poster_block_small minipic_text">
+          <h2>Monthly Pick</h2>
+          <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <button class="dot_button" href="#">
+            <span class="sr-only">A Good Reason to Join</span>
+            <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
+          </button>
+        </div>
+        <div class="img__square_ratio">
+          <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/6ec4f84f-49dd-439e-aae7-cef1123eb06e/fpo1.jpg" />
+        </div>
+      </div>
+
+      <div class="poster_block_small block__caption">
+        <h4>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h4>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+

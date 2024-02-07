@@ -1,0 +1,19 @@
+{
+  "name": "taskforce",
+  "version": "1.0.0",
+  "description": "Task Force",
+  "main": "rollup.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.9.6"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5"
+  }
+}

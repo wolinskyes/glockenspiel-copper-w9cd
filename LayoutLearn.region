@@ -12,7 +12,7 @@
     <!-- include system scripts, page meta, and header code injection -->
     {squarespace-headers}
   </head>
-  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
+  <body id="{squarespace.page-id}" class="primary_page {squarespace.page-classes}">
     <div class="site-container">
       <header class="site-header">
         <squarespace:navigation navigationId="siteNav" template="site-navigation" />

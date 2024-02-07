@@ -9,6 +9,25 @@ nav.site-navigation {
   align-items: center;
   z-index: 20;
 
+  #BackToTop {
+    position: fixed;
+    bottom: 0;
+    right: 2rem;
+    padding: 1rem;
+    color: white;
+    background-color: @theme_orange;
+    transition: transform 1s;
+    transform: translateY(100px);
+    text-transform: uppercase;
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    cursor: pointer;
+
+    &.is_sticky {
+      transform: translateY(0px);
+    }
+  }
+
   #SiteMiniTitle {
     position: absolute;
     left: calc(110px + 0rem);
