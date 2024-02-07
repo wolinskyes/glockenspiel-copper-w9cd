@@ -37,9 +37,7 @@
             {@|apply hero/homepage-impact.block}
           </section>
 
-          <section class="fullwidth-wrapper">
-            {@|apply hero/homepage-social.block}
-          </section>
+
 
         {.end}
       </main>

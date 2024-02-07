@@ -4,34 +4,36 @@
       <div class="posters_leftgroup">
         <h1 class="super">Who</h1>
         <h1 class="super">We Are</h1>
-        <p>YWTF of Greater Lafayette is a movement led by womxn and nonbinary activists to fight for social justice.</p>
+        <p>Indiana Task FORCE believes we can work within and beyond the modern feminist movement to improve the material conditions of our lives. We believe that if every day people come together and organize, centering the leadership of the most marginalized, we will win a world that works for us all.</p>
 
         <div class="poster_block_small type_minipic">
           <div class="img__square_ratio">
-            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/6ec4f84f-49dd-439e-aae7-cef1123eb06e/fpo1.jpg" />
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/8b142db3-c514-4f95-b362-a49d47c10831/who2.jpg?content-type=image%2Fjpeg" />
           </div>
           <div class="poster_block_small minipic_text">
-            <h2>Leadership by Example</h2>
-            <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <h2>We are creating a liberated future.</h2>
+            <p>Reproductive Justice informs how we identify the issues we fight for or against and how we organize around those issues too.</p>
+            <p>We believe all people should be empowered to choose whether or not they have children and to raise those children in safe and supportive communities.</p>
           </div>
         </div>
       </div>
       <div class="posters_rightgroup">
-        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/6ec4f84f-49dd-439e-aae7-cef1123eb06e/fpo1.jpg" />
+        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/2cb868d3-425d-4fe5-8e9f-45cf7725f375/who1.jpg?content-type=image%2Fjpeg" />
         <div class="poster_block_medium minipic_text block__blushbg">
-          <h2>Leadership by Example</h2>
-          <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <h2>We believe in the power<br/>of every-day people.</h2>
+          <p>People like you can make an impact and create the change we need to strengthen our communities so a better tomorrow is possible for all of us.</p>
         </div>
       </div>
-      <div class="posters_widegroup">
-        <div class="poster_block_small type_minipic block__graphitebg">
-          <div class="img__square_ratio">
-            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/6ec4f84f-49dd-439e-aae7-cef1123eb06e/fpo1.jpg" />
-          </div>
-          <div class="poster_block_small minipic_text">
-            <h2>Leadership by Example</h2>
-            <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-          </div>
+
+    </div>
+    <div class="posters_widegroup">
+      <div class="poster_block_small type_minipic block__graphitebg">
+        <div class="img__square_ratio">
+          <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/6ec4f84f-49dd-439e-aae7-cef1123eb06e/fpo1.jpg" />
+        </div>
+        <div class="poster_block_small minipic_text">
+          <h2>Across Indiana. And the WORLD.</h2>
+          <p>Our vision for safe, thriving, equitable communities starts in our home state of Indiana, but our principles and vision support the liberation of marginalized people around the world.</p>
         </div>
       </div>
     </div>

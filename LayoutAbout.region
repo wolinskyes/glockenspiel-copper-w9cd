@@ -29,6 +29,9 @@
         <section class="fullwidth-wrapper">
           {@|apply hero/about-timeline.block}
         </section>
+        <section class="fullwidth-wrapper">
+          {@|apply hero/homepage-social.block}
+        </section>
 
         {.end}
       </main>

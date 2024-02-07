@@ -59,11 +59,16 @@ h2 {
   font-family:"Gilroy-Black";
   font-size: 2rem;
   line-height: 1.2;
+  margin-top: 0rem;
   margin-bottom: 1rem;
   color: @theme_wine;
   display: inline-block;
 
   border-bottom: 5px solid @theme_wine;
+
+  & + h2 {
+    margin-bottom: 0.5rem;
+  }
 
   a {
     font: inherit;
@@ -77,7 +82,7 @@ h3 {
   font-family:"Gilroy-Semibold";
   font-size: 1.5rem;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.75;
   margin-bottom: 1rem;
 }
 

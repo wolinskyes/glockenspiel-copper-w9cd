@@ -1,30 +1,38 @@
 <div class="homepage-values">
   <div class="max-wrapper">
-    <h1>Our Values</h1>
+    <div class="homepage_values_intro">
+      <h1>Core Values</h1>
+      <h3>Established in January 2016 in Lafayette, Indiana, we were first known at Younger Women's Task Force Greater Lafayette. There were three things we cared about in the beginning, and those three things carry us forward today as we grow into a statewide organization.</h3>
+    </div>
+
     <div class="homepage_values_posters">
       <div class="poster_block_value block__winebg">
+        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/3bc85cca-547b-4e57-8b69-f209aeb8e026/values1.jpg?content-type=image%2Fjpeg" />
         <div class="value_inner">
-          <h2>Value</h2>
-          <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <h2>Leadership</h2>
+          <p>We center the leadership of those most affected by the issues.</p>
         </div>
       </div>
       <div class="poster_block_value block__mossbg">
+        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/13d2bbaf-64a9-4ff7-9fe8-6290d3e91819/values2.jpg?content-type=image%2Fjpeg" />
         <div class="value_inner">
-          <h2>Value</h2>
-          <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <h2>Solidarity</h2>
+          <p>We stand in solidarity with all workers, everywhere</p>
         </div>
       </div>
       <div class="poster_block_value block__orangebg">
+
+        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/7b691e42-e4f3-48a4-b2d2-d052fbe1f6c6/values3.jpg?content-type=image%2Fjpeg" />
         <div class="value_inner">
-          <h2>Value</h2>
-          <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <h2>Reproductive Justice</h2>
+          <p>Our process and vision for the future is rooted in a Reproductive Justice framework.</p>
         </div>
       </div>
 
-      <div class="poster_block_value block__bluebg">
+      <!-- <div class="poster_block_value block__bluebg">
         <div class="value_inner">
-          <h2>Value</h2>
-          <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <h2>Impact</h2>
+          <p>Indiana Task FORCE was founded in 2016, and in 2021, our membership expanded. We have Locals in Greater Lafayette (Local 1) and Indianapolis (Local 317) as well as at-large members all across the state. We are on a mission to create the Indiana we all deserve to call home.</p>
         </div>
       </div>
       <div class="poster_block_value block__ivorybg">
@@ -53,7 +61,7 @@
           <h2>Value</h2>
           <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>

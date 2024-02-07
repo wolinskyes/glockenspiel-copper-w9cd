@@ -2,32 +2,36 @@
   <div class="homepage_hero_posters">
     <div class="posters_leftgroup">
       <div class="intro_block">
-        <h1 >Let's do something</h1>
-        <h1>that matters together.</h1>
-        <h3>YWTF of Greater Lafayette is a movement led by womxn and nonbinary activists to fight for social justice.</h3>
-        <button class="button">Join Us</button>
+        <h1>Let's do something</h1>
+        <h1>that matters, together!</h1>
+        <h3>We all deserve to live safe, fulfilling lives. Can you imagine an Indiana where we all thrive? We can.</h3>
+        <p>Whether surrounded by cornfields, coffeeshops, or concrete, Indiana Task FORCE members are working across the state to create the future we all deserve. We are Feminists Organizing & Reimagining Civic Engagement.</p>
+        <button class="button">Come Join Us</button>
       </div>
       <div class="poster_block_small block__goldbg">
         <h2>Resources</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-        <button class="dot_button" href="#">
-          <span class="sr-only">View Resources</span>
-          <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
-        </button>
+        <p>We center the leadership of people most affected by the issues. Learn more about our political homes from our favorite comrades, including voices of Black and Brown leaders we should all trust.</p>
+
+        <a href="/learn">
+          <button class="dot_button" >
+            <span class="sr-only">View Resources</span>
+            <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
+          </button>
+        </a>
       </div>
       <div class="poster_block_medium block__bluebg">
-        <h2>Events</h2>
-        <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        <button class="button" href="#">View Events</button>
+        <h2>Check out what we're up to</h2>
+        <p>Take action with us across the state. We can't wait to meet you whether in a neighbor’s living room, your favorite tea house, online or in the streets.</p>
+        <button class="button" href="/events">View Events</button>
       </div>
     </div>
     <div class="posters_rightgroup">
       <div class="poster_block_heroimg">
-        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/6ec4f84f-49dd-439e-aae7-cef1123eb06e/fpo1.jpg" />
+        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/5dc76739-8006-4c71-918e-e7b9cd583669/home1.jpg" />
         <div class="poster_heroimg_cta">
-          <a href="#">
+          <a href="/join-us">
             <h2>Get Involved</h2>
-            <button class="dot_button inverted" href="#">
+            <button class="dot_button inverted" >
               <span class="sr-only">View Resources</span>
               <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
             </button>

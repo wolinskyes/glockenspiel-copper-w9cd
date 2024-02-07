@@ -17,7 +17,18 @@
     margin-top: -80px;
 
     .intro_block {
-      max-width: 78%;
+      padding-right: 5rem;
+      h1 {
+        display: block;
+      }
+
+      h3 {
+        line-height: 1.8rem;
+      }
+    }
+
+    .button {
+      margin-top: 4rem;
     }
 
     .poster_block_small,
@@ -72,6 +83,10 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+
+    img {
+      max-width: 100%;
+    }
   }
 
   .posters_leftgroup,
@@ -80,14 +95,17 @@
     flex-wrap: wrap;
     flex-direction: column;
     width: 50%;
+    justify-content: end;
   }
 
   .posters_leftgroup {
     align-items: flex-start;
 
-    p {
+    & > p {
       margin-bottom: 5rem;
+      max-width: 80%;
     }
+
   }
 
   .posters_widegroup {
@@ -112,12 +130,22 @@
   padding: 300px 0 4rem 0;
   margin-top: -150px;
 
+  .homepage_values_intro {
+    max-width: 45%;
+
+    h3 {
+      color: white;
+      margin-bottom: 4rem;
+    }
+  }
+
   // 3 col grid, masonry style
   .homepage_values_posters {
     column-count: 3;
     column-gap: 0;
     align-content: center;
     width: 90%;
+    height: 720px;
     margin: 0 auto;
     // max-height: 100vh;
   }
@@ -158,6 +186,7 @@
 .homepage-impact {
   background: @theme_gold;
   background: linear-gradient(0deg, @theme_forest 50%, @theme_gold 50%);
+  padding-bottom: 3rem;
 
   .impact_content {
     width: 100%;
@@ -166,10 +195,12 @@
     flex-direction: row;
     flex-wrap:wrap;
     align-items: center;
+    justify-content: space-between;
   }
 
   .impact_group {
-    max-width: 25%;
+    // max-width: 25%;
+    flex-basis: 23%;
     padding: @poster_block_padding;
   }
 
@@ -181,7 +212,7 @@
 
   .impact_intro {
     padding: @poster_block_padding;
-
+    flex-basis: 30%;
     h2 {
       color: inherit;
       border-color: inherit;

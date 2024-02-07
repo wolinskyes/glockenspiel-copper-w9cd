@@ -3,24 +3,24 @@
     <div class="impact_content">
       <div class="impact_group impact_intro block__graphitebg">
         <h2>Our Impact</h2>
-        <squarespace:block-field id="blockField1" columns="12"/>
-        <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        <!-- <squarespace:block-field id="blockField1" columns="12"/> -->
+        <p>Indiana Task FORCE was founded in 2016, and in 2021, our membership expanded. We have Locals in Greater Lafayette (Local 1) and Indianapolis (Local 317) as well as at-large members all across the state. We are on a mission to create the Indiana we all deserve to call home.</p>
       </div>
       <div class="impact_group">
-        <h1 class="super">100</h1>
-        <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <h1 class="super">2</h1>
+        <h3>Locals: Greater Lafayette, Indianapolis</h3>
       </div>
       <div class="impact_group">
-        <h1 class="super">100</h1>
-        <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <h1 class="super">5</h1>
+        <h3>Annual<br/>Campaigns</h3>
       </div>
       <div class="impact_group">
-        <h1 class="super">100</h1>
-        <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <h1 class="super">&infin;</h1>
+        <h3>Countless<br/>actions taken</h3>
       </div>
     </div>
     <div class="impact_cta">
-      <button class="super_cta_button">Take Action With Us</button>
+      <button class="super_cta_button">Take Action With Us!</button>
     </div>
   </div>
 </div>
