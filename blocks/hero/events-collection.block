@@ -1,5 +1,5 @@
 <div class="events_collection_wrap">
-  <div class="events_collection_filter">
+  <div class="events_collection_filter collection_filter">
     <h3 class="filter_title">
       Filter Events
     </h3>
