@@ -1,4 +1,34 @@
 // Filters & Dropdowns & Search
+.collection_search {
+  height: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  input[type="text"] {
+    &::placeholder {
+      color: @theme_graphite;
+      font-family: "Gilroy-Semibold";
+      font-size: 1.5rem;
+      font-weight: normal;
+      line-height: 1.5;
+    }
+    position: relative;
+    border: 0;
+    background-color: white;
+    height: 100%;
+    padding: 0 2rem 0 2rem;
+    font-family:"Gilroy-Semibold";
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.5;
+    flex-grow: 1;
+    border-radius: 30px;
+
+  }
+
+}
 .collection_filter {
   // width: 50%;
   height: 60px;

@@ -1,15 +1,20 @@
 <div class="learn-filter fullwidth-wrapper">
   <div class="max-wrapper">
     <h2>Search &amp; Sort</h2>
-    <div class="collection_filter">
-      <h3 class="filter_title">
-        Filter Events
-      </h3>
-      <select>
-        <option value="all">All</option>
-        <option value="upcoming">Upcoming</option>
-        <option value="past">Past</option>
-      </select>
+    <div class="filters_ui">
+      <div class="collection_filter">
+        <h3 class="filter_title">
+          Filter Reads
+        </h3>
+        <select>
+          <option value="all">All</option>
+          <option value="upcoming">Upcoming</option>
+          <option value="past">Past</option>
+        </select>
+      </div>
+      <div class="collection_search">
+        <input type="text" placeholder="Search" />
+      </div>
     </div>
   </div>
 </div>

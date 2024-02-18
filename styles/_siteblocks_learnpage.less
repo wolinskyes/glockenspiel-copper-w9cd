@@ -25,11 +25,69 @@
   h2 {
     color: white;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 3rem auto;
     width: 100%;
+  }
+
+  .filters_ui {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+  }
+
+  .collection_filter {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+
+  .collection_search {
+    max-width: 30%;
+    flex-basis: 30%;
   }
 }
 
-.learn-list {
+.learn_list {
   background-color: @theme_wine;
+  padding-bottom: 4rem;
+
+  & > .max-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .library_read_item {
+    width: 31%;
+    height: fit-content;
+    margin: 0 1% 2rem 1%;
+    background-color: @theme_blush;
+
+    h2 {
+      border: none;
+      margin-bottom: 0;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .library_read_content {
+      padding: 1.5rem;
+
+      & > h3 {
+        font-weight: bold;
+        font-size: 1.25rem;
+        letter-spacing: 0.05rem;
+        a {
+          color: inherit;
+          font: inherit;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }

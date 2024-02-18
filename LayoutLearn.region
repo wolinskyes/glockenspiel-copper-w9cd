@@ -24,8 +24,14 @@
           {@|apply hero/learn-filter.block}
           {@|apply hero/learn-list.block}
         {.end}
+        <squarespace:query collection="library" limit="10">
+        <!-- - - - - - - - - - - - -  -->
+        {@|apply hero/learn-list.block}
+        <!-- - - - - - - - - - - - -  -->
+        </squarespace:query>
       </main>
       {@|apply common/footer.block}
     </div>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   </body>
 </html>
