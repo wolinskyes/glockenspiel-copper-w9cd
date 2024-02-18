@@ -9,8 +9,24 @@
       <option value="past">Past</option>
     </select>
   </div>
-  <div class="events_collection_list">
+  <div class="events_collection_list" data-isotope='{ "itemSelector": ".events_item", "layoutMode": "masonry" }'>
     <!-- BEGIN Events list -->
+
+      {.repeated section items}
+      <div class="events_item">
+        {.section originalSize}
+        <img src="{assetUrl}" alt="{title}" />
+        {.end}
+        <div class="events_item_body">
+          <h2>{title}</h2>
+          <p>{excerpt}</p>
+          <button class="button"><a href="{.section sourceUrl}{sourceUrl}{.or}{fullUrl}{.end}">Event Link</a></button>
+        </div>
+      </div>
+      {.end}
+
+
+<!--
     <div class="events_item">
       <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/7b4ed397-c823-44b0-98cb-20bc01835f03/fpo7.jpg" />
       <div class="events_item_body">
@@ -47,7 +63,7 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
       <button class="button">Event Link</button>
       </div>
-    </div>
+    </div> -->
 
 
     <!-- END Events list -->

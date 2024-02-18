@@ -1,5 +1,5 @@
 <div class="learn_list fullwidth-wrapper">
-  <div class="max-wrapper" data-isotope='{ "itemSelector": ".library_read_item", "layoutMode": "fitColumns" }'>
+  <div class="max-wrapper" data-isotope='{ "itemSelector": ".library_read_item", "layoutMode": "masonry" }'>
     {.repeated section items}
     <div class="library_read_item">
 

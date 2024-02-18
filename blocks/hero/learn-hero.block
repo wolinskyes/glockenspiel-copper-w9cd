@@ -1,8 +1,8 @@
 <div class="learn-hero">
   <div class="learn_hero_posters max-wrapper">
     <div class="posters_leftgroup intro_block">
-      <h1>Resource</h1>
-      <h1>Library</h1>
+      <h1 class="super">Resource</h1>
+      <h1 class="super">Library</h1>
       <h3>A word about our library...</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>

@@ -23,14 +23,18 @@
         <section class="max-wrapper">
           {@|apply hero/events-hero.block}
         </section>
+        {.end}
         <section class="max-wrapper">
+          <squarespace:query collection="events-list" limit="10">
           {@|apply hero/events-collection.block}
+          </squarespace:query>
         </section>
 
 
-        {.end}
+
       </main>
       {@|apply common/footer.block}
     </div>
+    <!-- <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> -->
   </body>
 </html>

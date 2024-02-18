@@ -39,17 +39,19 @@
 
 .events_collection_list {
   margin-top: 12rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .events_item {
-  width: 100%;
+  width: 50%;
+  flex-basis: 50%;
   background-color: @theme_gold;
   // margin-top: 5rem;
   margin-bottom: 3rem;
-  height: max-content;
-  display: inline-block;
+  height: fit-content;
+
 
 
   img {
