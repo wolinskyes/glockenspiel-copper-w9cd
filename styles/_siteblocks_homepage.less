@@ -141,22 +141,22 @@
 
   // 3 col grid, masonry style
   .homepage_values_posters {
-    column-count: 3;
-    column-gap: 0;
-    align-content: center;
-    width: 90%;
-    height: 720px;
-    margin: 0 auto;
-    // max-height: 100vh;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 4rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
   .poster_block_value {
     line-height: 0;
     // min-height: 30vh;
-    display: inline-block;
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid-column;
+    flex: 0 0 0;
+    width: 30%;
+    flex-basis: 33%;
+    height: fit-content;
 
     .value_inner {
       line-height: initial;

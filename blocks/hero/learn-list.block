@@ -1,5 +1,14 @@
 <div class="learn-list fullwidth-wrapper">
-  <div class="max-wrapper">
-
+  <div class="max-wrapper" style="color:white;">
+    <squarespace:query collection="blog-collection" limit="10">
+    list start
+      <ol>
+        {.repeated section items}
+        hi
+          <li><a href="{fullUrl}">{title}</a></li>
+        {.end}
+      </ol>
+    list end
+    </squarespace:query>
   </div>
 </div>
