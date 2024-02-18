@@ -1,13 +1,32 @@
 <div class="learn-list fullwidth-wrapper">
   <div class="max-wrapper" style="color:white;">
-    <squarespace:query collection="blog-collection" limit="10">
+    <squarespace:query collection="library" limit="10">
     list start
-      <ol>
-        {.repeated section items}
-        hi
-          <li><a href="{fullUrl}">{title}</a></li>
-        {.end}
-      </ol>
+      <!-- - - - - - - - - - - - -  -->
+      <!-- item loop -->
+{.repeated section items}
+
+<article id="post-{id}" class="library-list-item {@|item-classes}" data-item-id="{id}">
+
+  <!-- post title -->
+  <h1 class="title" data-content-field="title">
+    {.passthrough?}
+      <a href="{sourceUrl}" target="_blank">{title}</a>
+    {.or}
+      <a href="{fullUrl}">{title}</a>
+    {.end}
+  </h1>
+
+</article>
+
+{.or}
+
+<!-- no items means no blog posts -->
+<p><em>No library reads yet.</em></p>
+
+{.end}
+      <!-- - - - - - - - - - - - -  -->
+
     list end
     </squarespace:query>
   </div>
