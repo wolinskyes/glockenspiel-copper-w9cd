@@ -5,4 +5,5 @@ import _events from "./_events";
 document.addEventListener("DOMContentLoaded", function() {
   // run the attachStickyNav function from _events.js
   _events.attachStickyNav();
+  _events.attachDrawerMenu();
 })
