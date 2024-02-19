@@ -1,6 +1,8 @@
 .learn_hero_posters {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 3rem;
+
 
   .posters_leftgroup {
     width: 50%;
@@ -11,10 +13,18 @@
         background-color: @theme_action;
       }
     }
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      width: 100%;
+    }
   }
   .posters_rightgroup {
     width: 50%;
     margin-top: 3rem;
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      width: 100%;
+    }
   }
 }
 
@@ -39,11 +49,19 @@
   .collection_filter {
     max-width: 50%;
     flex-basis: 50%;
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      max-width: 100%;
+      flex-basis: 100%;
+    }
   }
 
   .collection_search {
     max-width: 30%;
     flex-basis: 30%;
+    @media screen and (max-width: @breakpoint_mobile) {
+      display: none;
+    }
   }
 }
 
@@ -57,13 +75,25 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    box-sizing: border-box;
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      flex-direction: column;
+      padding: 0 0 0 5%;
+
+    }
   }
 
   .library_read_item {
-    width: 29.2%;
+    width: 29%;
     height: fit-content;
     margin: 0 1% 2rem 1%;
     background-color: @theme_blush;
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      width: 90%;
+      margin: 0 auto;
+    }
 
     &:nth-child(2n){
       background-color: white;

@@ -1,5 +1,3 @@
-// --------------------------------------- Homepage
-
 .homepage-hero {
   min-height: 80vh;
   .homepage_hero_posters {
@@ -13,6 +11,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     width: 50%;
+
 
     margin-top: -80px;
 
@@ -35,6 +34,15 @@
     .poster_block_medium {
       margin-left: auto;
       margin-right: 0;
+    }
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      width: 100%;
+      margin-top: 0px;
+
+      .intro_block {
+        padding-right: 0rem;
+      }
     }
   }
 
@@ -69,6 +77,10 @@
         margin: 0;
       }
     }
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      width: 100%;
+    }
   }
 }
 
@@ -96,6 +108,9 @@
     flex-direction: column;
     width: 50%;
     justify-content: end;
+    @media screen and (max-width: @breakpoint_mobile) {
+      width: 100%;
+    }
   }
 
   .posters_leftgroup {
@@ -104,6 +119,11 @@
     & > p {
       margin-bottom: 5rem;
       max-width: 80%;
+
+      @media screen and (max-width: @breakpoint_mobile) {
+        max-width: 100%;
+      }
+
     }
 
   }
@@ -115,6 +135,10 @@
       width: 50%;
       margin: 0 auto;
       flex-direction: row-reverse;
+      @media screen and (max-width: @breakpoint_mobile) {
+        width: 100%;
+        flex-direction: column;
+      }
     }
   }
 
@@ -133,6 +157,10 @@
   .homepage_values_intro {
     max-width: 45%;
 
+    @media screen and (max-width: @breakpoint_mobile) {
+      max-width: 100%;
+    }
+
     h3 {
       color: white;
       margin-bottom: 4rem;
@@ -148,6 +176,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: @breakpoint_mobile) {
+      flex-direction: column;
+    }
   }
 
   .poster_block_value {
@@ -174,6 +205,11 @@
 
     p {
       color: inherit;
+    }
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      width: 100%;
+      flex-basis: 100%;
     }
   }
 
@@ -202,6 +238,15 @@
     // max-width: 25%;
     flex-basis: 23%;
     padding: @poster_block_padding;
+    @media screen and (max-width: @breakpoint_mobile) {
+      flex-basis: 33%;
+      width:33%;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      height: 30vh;
+      min-height: 300px;
+    }
   }
 
   h1 {
@@ -220,6 +265,12 @@
     p {
       color: inherit;
     }
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      flex-basis: 100%;
+      display: block;
+      height: auto;
+    }
   }
 
   .impact_cta {
@@ -227,22 +278,13 @@
     display: flex;
     flex-direction: row;
     justify-content: end;
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      width: 100%;
+      button {
+        width: 100%;
+      }
+    }
   }
 
-}
-
-.homepage-social {
-  background: @theme_forest;
-  background: linear-gradient(0deg, @theme_ivory 20%, @theme_forest 20%);
-  min-height: 50vh;
-
-  .max-wrapper > h1 {
-    display: block;
-  }
-
-  .social_instafeed_wrap {
-    margin-top: 5rem;
-    width: 100%;
-    min-height: 25vw;
-  }
 }

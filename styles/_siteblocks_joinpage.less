@@ -21,13 +21,24 @@
     height: 160px;
     transform-origin: center;
     animation: rotate 10s linear infinite;
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      width: 80px;
+      height: 80px;
+      left: -0.5rem;
+    }
   }
 
   .join_hero_posters {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      flex-direction: column-reverse;
+    }
 
     .posters_leftgroup {
       width: 50%;
@@ -35,6 +46,10 @@
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: end;
+
+      @media screen and (max-width: @breakpoint_mobile) {
+        width: 100%;;
+      }
 
       img {
         width: 100%;
@@ -46,8 +61,15 @@
     .posters_rightgroup {
       width: 50%;
 
+      @media screen and (max-width: @breakpoint_mobile) {
+        width: 100%;
+      }
+
       .type_minipic {
         flex-direction: row-reverse;
+        @media screen and (max-width: @breakpoint_mobile) {
+          flex-direction: column;
+        }
       }
 
       & > h1 {
@@ -59,6 +81,9 @@
 
         &:last-of-type {
           margin-bottom: 5rem;
+          @media screen and (max-width: @breakpoint_mobile) {
+            margin-bottom: 40px;
+          }
         }
       }
     }
@@ -71,6 +96,10 @@
   background: linear-gradient(0deg, @theme_wine 50%, @theme_blush 50%);
   padding: 5rem 0 5rem 0;
 
+  @media screen and (max-width: @breakpoint_mobile) {
+    padding-bottom: 1rem;
+  }
+
   .memberships_filter {
     text-align: center;
 
@@ -80,6 +109,7 @@
 
     ul {
       list-style: none;
+      padding-left: 0;
     }
     li {
       display: inline-block;
@@ -91,7 +121,7 @@
         line-height: 1.5;
         text-decoration: none;
         margin-bottom: 1rem;
-        margin: 0 1rem 0 1rem;
+        margin: 0 1rem 1rem 1rem;
         display: flex;
         height: 60px;
         align-items: center;
@@ -119,6 +149,10 @@
     flex-direction: row;
     position: relative;
     margin-bottom: 8rem;
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      flex-direction: column;
+    }
 
     &:nth-of-type(1n) .membership_item_content {
       background-color: @theme_wine;
@@ -154,6 +188,9 @@
 
     .membership_item_overview {
       width: 50%;
+      @media screen and (max-width: @breakpoint_mobile) {
+        width: 100%;
+      }
     }
 
     .membership_item_image,
@@ -183,6 +220,9 @@
       justify-content: center;
       align-items: center;
 
+      @media screen and (max-width: @breakpoint_mobile) {
+        width: 100%;
+      }
     }
   }
 }

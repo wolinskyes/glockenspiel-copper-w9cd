@@ -12,15 +12,25 @@
 
   .posters_leftgroup {
     width: 50%;
+    @media screen and (max-width: @breakpoint_mobile) {
+      width: 100%;
+    }
   }
 
   .intro_block h3 {
     padding-right: 4rem;
     margin-bottom: 10rem;
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      margin-bottom: 4rem;
+    }
    }
 
   .posters_rightgroup {
     width: 50%;
+    @media screen and (max-width: @breakpoint_mobile) {
+      width: 100%;
+    }
 
     img {
       width: 100%;
@@ -39,6 +49,9 @@
   );
   padding-top: 300px;
   margin-top: -150px;
+  @media screen and (max-width: @breakpoint_mobile) {
+    padding-top: 200px;
+  }
 
   .about_leadership_posters,
   .about_leadership_group {
@@ -64,6 +77,10 @@
     .posters_rightgroup {
       display: flex;
       justify-content: end;
+      @media screen and (max-width: @breakpoint_mobile) {
+        justify-content: start;
+        padding: 1rem 0;
+      }
     }
   }
 
@@ -74,13 +91,21 @@
     img {
       width: 100%;
     }
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      width: 100%;
+    }
   }
 
   div.about_leadership_group {
     margin-bottom: 6rem;
+
     &:nth-of-type(1n) {
       .posters_leftgroup {
         margin-top: 150px;
+        @media screen and (max-width: @breakpoint_mobile) {
+          margin-top: 0px;
+        }
       }
     }
 
@@ -102,6 +127,10 @@
   background: linear-gradient(0deg, @theme_ivory 25%, @theme_gold 25%);
   min-height: 500px;
   padding-top: 200px;
+
+  @media screen and (max-width: @breakpoint_mobile) {
+    padding-top: 100px;
+  }
   h1 {
     display: block;
   }
@@ -116,5 +145,29 @@
     overflow-x: scroll;
     background-color: @theme_blush;
     min-height: 500px;
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      min-height: 400px;
+    }
+  }
+}
+
+.homepage-social {
+  background: @theme_forest;
+  background: linear-gradient(0deg, @theme_ivory 20%, @theme_forest 20%);
+  min-height: 50vh;
+
+  @media screen and (max-width: @breakpoint_mobile) {
+    padding-top: 4rem;
+  }
+
+  .max-wrapper > h1 {
+    display: block;
+  }
+
+  .social_instafeed_wrap {
+    margin-top: 5rem;
+    width: 100%;
+    min-height: 25vw;
   }
 }

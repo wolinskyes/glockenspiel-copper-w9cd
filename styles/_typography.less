@@ -52,6 +52,13 @@ h1 {
 
   &.super {
     font-size: 5rem;
+    @media screen and (max-width: @breakpoint_mobile) {
+      font-size: 3rem;
+    }
+  }
+
+  @media screen and (max-width: @breakpoint_mobile) {
+    font-size: 2rem;
   }
 }
 

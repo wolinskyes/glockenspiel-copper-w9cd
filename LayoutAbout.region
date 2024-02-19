@@ -20,9 +20,9 @@
 
       <main class="content-container" role="main">
         {.section website}
-        <section class="max-wrapper">
+        <!-- <section class="max-wrapper"> -->
           {@|apply hero/about-hero.block}
-        </section>
+        <!-- </section> -->
         <section class="fullwidth-wrapper">
           {@|apply hero/about-leadership.block}
         </section>

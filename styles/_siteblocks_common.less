@@ -126,10 +126,17 @@
     width: 100%;
     max-width: 100%;
 
+    @media screen and (max-width: @breakpoint_mobile) {
+      flex-direction: column;
+    }
+
     .poster_block_small {
       flex-basis: 50%;
       width: unset;
       padding-bottom: 0;
+      @media screen and (max-width: @breakpoint_mobile) {
+        flex-basis: 100%;
+      }
     }
 
     // nested:
@@ -151,6 +158,10 @@
         height: 100%;
         object-fit: cover;
       }
+
+      @media screen and (max-width: @breakpoint_mobile) {
+        flex-basis: 100%;
+      }
     }
   }
 
@@ -163,6 +174,11 @@
     border-color: inherit;
     color: inherit;
     margin-top: 3rem;
+  }
+
+  @media screen and (max-width: @breakpoint_mobile) {
+    width: 100%;
+    max-width: unset;
   }
 }
 
@@ -182,6 +198,11 @@
     border-color: inherit;
     color: inherit;
     margin-top: 3rem;
+  }
+
+  @media screen and (max-width: @breakpoint_mobile) {
+    width: 100%;
+    max-width: unset;
   }
 }
 

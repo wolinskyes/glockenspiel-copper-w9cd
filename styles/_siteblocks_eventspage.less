@@ -4,6 +4,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 
     img {
       width: 100%;
@@ -16,7 +17,11 @@
   }
 
   .posters_leftgroup {
-    width: 50%;
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      width: 100%;
+    }
+
     h1 {
       display: block;
     }
@@ -24,17 +29,31 @@
     & > h3 {
       padding-right: 4rem;
       margin-bottom: 5rem;
+
+      @media screen and (max-width: @breakpoint_mobile) {
+        padding-right: 0;
+      }
     }
   }
 
   .posters_rightgroup {
     width: 50%;
+    @media screen and (max-width: @breakpoint_mobile) {
+      width: 100%;
+
+      .icon {
+        display: none;
+      }
+    }
   }
 }
 
 .events_collection_filter {
   width: 50%;
   margin-bottom: 4rem;
+  @media screen and (max-width: @breakpoint_mobile) {
+    width: 100%;
+  }
 }
 
 .events_collection_list {
@@ -42,17 +61,24 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
+  @media screen and (max-width: @breakpoint_mobile) {
+    margin-top: 4rem;
+  }
 }
 
 .events_item {
   width: 50%;
   flex-basis: 50%;
+  @media screen and (max-width: @breakpoint_mobile) {
+    width: 100%;
+    flex-basis: 100%;
+  }
+
   background-color: @theme_gold;
   // margin-top: 5rem;
   margin-bottom: 3rem;
   height: fit-content;
-
-
 
   img {
     width: 100%;
@@ -62,13 +88,12 @@
     padding:  0.5rem 2rem 2rem 2rem;
   }
 
-  // &:first-child {
-  //   margin-top: -3rem;
-  // }
-
   &:nth-child(odd) {
     background-color: @theme_ivory;
     margin-top: -6rem;
+    @media screen and (max-width: @breakpoint_mobile) {
+      margin-top: 0rem;
+    }
   }
 
   &:nth-child(2n+1) {
