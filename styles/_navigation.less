@@ -134,11 +134,13 @@ nav.site-navigation {
   top: 0;
   left: 0;
   width: 400px;
+  max-width: 100vw;
   background-color: @theme_graphite;
   height: 100vh;
   overflow-y: scroll;
+
   .drawer_inner_wrap {
-    padding: 150px 2rem 2rem 2rem;
+    padding: 110px 2rem 2rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -150,6 +152,10 @@ nav.site-navigation {
 
     button {
       width: 100%;
+    }
+
+    .poster_block_medium {
+      margin-bottom: 2rem;
     }
 
     .drawer_social_links {
@@ -168,12 +174,14 @@ nav.site-navigation {
 
   .site-navigation-list {
     display: none;
+
     @media screen and (max-width: @breakpoint_mobile) {
       display: block;
     }
-    width: 100%;
-    border-top: 1px solid white;
-    padding-top: 2rem;
+
+    border-bottom: 1px solid @theme_action;
+    padding-bottom: 1rem;
+    margin-bottom: 2.5rem;
 
     li {
       display: block;

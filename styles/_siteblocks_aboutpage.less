@@ -72,6 +72,9 @@
     button {
       display: inline-block;
       margin-left: 1rem;
+      @media screen and (max-width: @breakpoint_mobile) {
+        margin: 0 0.25rem;
+      }
     }
 
     .posters_rightgroup {
@@ -138,6 +141,10 @@
   .max-wrapper > h3 {
     max-width: 50%;
     margin: 3rem 0 5rem 0;
+
+    @media screen and (max-width: @breakpoint_mobile) {
+      max-width: 100%;
+    }
   }
 
   .timeline-wrapper {
