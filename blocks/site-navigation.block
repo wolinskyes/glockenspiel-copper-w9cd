@@ -19,6 +19,9 @@
 
         <!-- displays on mobile only as main nav -->
         <ul class="site-navigation-list">
+          <li class="site-navigation-item {.section active} active-link{.end}">
+            <a href="/">Home</a>
+          </li>
           {.repeated section items}
 
             <li class="site-navigation-item {.section active} active-link{.end}">
