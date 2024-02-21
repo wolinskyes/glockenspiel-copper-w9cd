@@ -9,6 +9,25 @@ nav.site-navigation {
   align-items: center;
   z-index: 20;
 
+  .site-navigation-item {
+    &.active-link {
+      border-bottom: 2px solid @theme_wine;
+    }
+
+    @media screen and (max-width: @breakpoint_mobile) {
+       &.active-link {
+        border-bottom: none;
+         a {
+          border-bottom: 2px solid @theme_orange;
+          padding-bottom: 0.25rem;
+         }
+       }
+
+    }
+
+
+  }
+
   #BackToTop {
     position: fixed;
     bottom: 0;

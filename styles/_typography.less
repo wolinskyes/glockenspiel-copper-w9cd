@@ -51,7 +51,10 @@ h1 {
   }
 
   &.super {
-    font-size: 5rem;
+    font-size: 4rem;
+    line-height: 1.25;
+    display: inline;
+
     @media screen and (max-width: @breakpoint_mobile) {
       font-size: 3rem;
     }
@@ -172,6 +175,22 @@ button {
     border-radius: 2rem;
     border: 3px solid @theme_orange;
     background-color: @theme_orange;
+    color: white;
+  }
+
+  &.graphite_button {
+    font-family:"Gilroy-Semibold";
+    font-weight: normal;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.5rem;
+    height: 3.5rem;
+    line-height: 1;
+    border-radius: 2rem;
+    border: 3px solid @theme_graphite;
+    background-color: @theme_graphite;
     color: white;
   }
 

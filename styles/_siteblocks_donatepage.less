@@ -13,7 +13,7 @@
     width: 50%;
 
     h1 {
-      display: block;
+      // display: block;
     }
 
     @media screen and (max-width: @breakpoint_mobile) {
@@ -75,11 +75,15 @@
     background-color: white;
     border-radius: 1rem;
     padding: @poster_block_padding;
-    width: calc(50% - 1rem);
+    width: calc(33% - 1rem);
 
     @media screen and (max-width: @breakpoint_mobile) {
       width: 100%;
       margin-bottom: 1rem;
+    }
+
+    h4 {
+      width: 50%;
     }
 
     .donate_corner_img {
@@ -87,7 +91,7 @@
       top: 0;
       right: 0;
       width: 50%;
-      height: 150px;
+      height: 110px;
       background: @theme_wine;
       border-top-right-radius: 1rem;
       border-bottom-left-radius: 1rem;
@@ -100,23 +104,27 @@
 
     .donate_content {
       display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+      flex-direction: column;
+      // flex-wrap: wrap;
       justify-content: space-between;
-      margin-top: 50px;
+      margin: 0;
+      padding-top: 50px;
+      padding-bottom: 3rem;
+      height: 100%;
 
       @media screen and (max-width: @breakpoint_mobile) {
-        flex-direction: column;
+        padding-bottom: 0rem;
       }
+
     }
 
     h2 {
       border: none;
-      flex-basis: 100%;
+      // flex-basis: 100%;
     }
 
     p {
-      flex-basis: 60%;
+      flex-basis: 50%;
     }
 
     button {
@@ -131,8 +139,20 @@
     &.alt_bg {
       background-color: @theme_ivory;
     }
+
+    &.alt_bg_2 {
+      background-color: @theme_action;
+
+      button {
+        padding: 1.5rem;
+        height: 4rem;
+        // background-color: @theme_ivory;
+        // color: @theme_action;
+      }
+    }
   }
 }
+
 .donate-builders {
   background-color: @theme_graphite;
   color: white;
@@ -145,6 +165,10 @@
     margin-bottom: 4rem;
   }
 
+  .donate_content_cta {
+    flex: 1;
+  }
+
   .logo_container {
     display: flex;
     flex-direction: row;
@@ -155,25 +179,44 @@
     margin-bottom: 4rem;
 
     .logo_item {
-      background-color: rgba(255,0,0,0.1);
-      min-height: 140px;
-      min-width: 250px;
-      flex: 0 0 0;
 
+      height: 150px;
+      min-width: 180px;
+      flex: 0 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin: 0 2rem 3rem 2rem;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
 
       @media screen and (max-width: @breakpoint_mobile) {
         min-height: 80px;
         min-width: 80px;
+        height: 110px;
         margin: 10px;
         flex-basis: 33%;
       }
     }
   }
+
+  .donate_builders_info {
+    max-width: 800px;
+    margin: 2rem auto;
+
+    strong {
+      color: @theme_action;
+    }
+  }
+
   button {
     margin: 0 auto;
   }
 }
+
 .donate-faq {
   background-color: @theme_wine;
   padding-top: 4rem;
@@ -220,6 +263,10 @@
 
     h3 {
       color: @theme_blush;
+
+      strong {
+        color: @theme_action;
+      }
     }
   }
 }
