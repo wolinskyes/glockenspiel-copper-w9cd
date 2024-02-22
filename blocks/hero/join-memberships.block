@@ -3,10 +3,10 @@
     <div class="memberships_filter">
       <h2>Quick Jump</h2>
       <ul>
-        <li><a class="button" href="#">Membership Type</a></li>
-        <li><a class="button" href="#">Membership Type</a></li>
-        <li><a class="button" href="#">Membership Type</a></li>
-        <li><a class="button" href="#">Membership Type</a></li>
+        <li><a class="button" href="#">Activist Member</a></li>
+        <li><a class="button" href="#">Solidarity Member</a></li>
+        <li><a class="button" href="#">Neighborhood Organizer</a></li>
+        <li><a class="button" href="#">Movement Builder</a></li>
       </ul>
     </div>
 
@@ -16,11 +16,11 @@
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
           <div class="membership_item_image">
-            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/7b4ed397-c823-44b0-98cb-20bc01835f03/fpo7.jpg" />
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/4cee323e-27b3-4ca9-9c26-d6d4921b3051/IMG_8427.jpg?content-type=image%2Fjpeg" />
           </div>
           <div class="membership_item_content">
-            <h2>Membership Type</h2>
-            <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <h2>Activist Member</h2>
+            <p>Activist members enjoy direct access to Indiana Task FORCE events, political education, training opportunities, monthly activist meetings, and Statewide calls that connect members with one another. Join us from anywhere in the state of Indiana as an At-Large Member or anchor your membership to Local 1 in Greater Lafayette or Local 317 in Indianapolis.</p>
           </div>
         </div>
         <div class="membership_form_embed">
@@ -32,25 +32,11 @@
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
           <div class="membership_item_image">
-            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/7b4ed397-c823-44b0-98cb-20bc01835f03/fpo7.jpg" />
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/cbe009d5-60b2-4156-955c-bc588318c1ff/IMG_9868.jpg?content-type=image%2Fjpeg" />
           </div>
           <div class="membership_item_content">
-            <h2>Membership Type</h2>
-            <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-          </div>
-        </div>
-        <div class="membership_form_embed">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSelT0Citu-yrrO_2433LVzw5PJGRqArl_dd3b-vbjDpIzytlg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
-      </div>
-
-      <div class="memberships_item">
-        <div class="collapse_btn">Collapse</div>
-        <div class="membership_item_overview">
-          <div class="membership_item_image"></div>
-          <div class="membership_item_content">
-            <h2>Membership Type</h2>
-            <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <h2>The Collective</h2>
+            <p>We are committed to centering the experiences of those most marginalized by systemic oppression, and do so by trusting the leadership of our members who identify as Black, Indigenous, and People Of Color (BIPOC). The Collective is the BIPOC caucus within Indiana Task FORCE. The Collective provides our BIPOC activists and organizers a space to build community and engage in political education free from the white gaze. There are no additional dues to participate as a member of The Collective.</p>
           </div>
         </div>
         <div class="membership_form_embed">
@@ -61,10 +47,46 @@
       <div class="memberships_item">
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
-          <div class="membership_item_image"></div>
+          <div class="membership_item_image">
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/f5f80e2d-e032-455b-9b30-44d8bae0fab9/IMG_8906.jpg?content-type=image%2Fjpeg" />
+          </div>
           <div class="membership_item_content">
-            <h2>Membership Type</h2>
-            <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <h2>Solidarity Member</h2>
+            <p>Become a Solidarity Member and stand with us in the movement. Activist Members need support. Become a protest marshal, provide a meal, or volunteer your time to provide child care during monthly Activist Meetings. Solidarity Members are eligible for discounted (and sometimes free) access to Indiana Task FORCE events and trainings. Stand With Us</p>
+          </div>
+        </div>
+        <div class="membership_form_embed">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSelT0Citu-yrrO_2433LVzw5PJGRqArl_dd3b-vbjDpIzytlg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+      </div>
+
+      <div class="memberships_item">
+        <div class="collapse_btn">Collapse</div>
+        <div class="membership_item_overview">
+          <div class="membership_item_image">
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/b54ca016-8468-4489-8296-d261270518f4/IMG_1874.jpg?content-type=image%2Fjpeg" />
+          </div>
+          <div class="membership_item_content">
+            <h2>Neighborhood Organizer</h2>
+            <p><strong>$250 annually</strong></p>
+            <p>Organizations and individuals who choose to join as a Neighborhood Organizer are dedicated to driving dynamic change across the Hoosier state. Members at this level receive recognition at events, trainings, and at our annual Lose Your Friends & Lovers Gala. Includes one individual membership at the Activist or Solidarity Membership levels.</p>
+          </div>
+        </div>
+        <div class="membership_form_embed">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSelT0Citu-yrrO_2433LVzw5PJGRqArl_dd3b-vbjDpIzytlg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+      </div>
+
+      <div class="memberships_item">
+        <div class="collapse_btn">Collapse</div>
+        <div class="membership_item_overview">
+          <div class="membership_item_image">
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/dc74acd5-649a-4321-b716-10a49ae53d90/IMG_1873.jpg?content-type=image%2Fjpeg" />
+          </div>
+          <div class="membership_item_content">
+            <h2>Movement Builder</h2>
+            <p><strong>$500 annually</strong></p>
+            <p></p>This level of membership demonstrates your commitment to championing change across Indiana that is rooted in the liberatory framework of Reproductive Justice. These organizations or individuals receive recognition at events, trainings, and our annual Lose Your Friends & Lovers Gala. Movement Builders receive two individual memberships at the Activist or Solidarity Membership levels.</p>
           </div>
         </div>
         <div class="membership_form_embed">

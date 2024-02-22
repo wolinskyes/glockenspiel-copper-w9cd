@@ -5,10 +5,10 @@
         <div id="JoinBadge">
           <img src="/assets/join_badge.svg" alt="Join Task Force" width="100px" />
         </div>
-        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/6ec4f84f-49dd-439e-aae7-cef1123eb06e/fpo1.jpg" />
+        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/8816cded-859a-42a6-92e2-0f20d12afea1/IMG_3757.jpeg?content-type=image%2Fjpeg" />
         <div class="poster_block_small block__orangebg">
-          <h2>Reason</h2>
-          <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <h2>Build a better Indiana</h2>
+          <p>Do you believe a better tomorrow is possible for all of us? We do! We are committed to creating a state where everyone thrives - no exceptions.</p>
           <button class="dot_button" href="#">
             <span class="sr-only">A Good Reason to Join</span>
             <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
@@ -20,8 +20,8 @@
         <h1>So Many</h1>
         <h1>Ways to Join</h1>
         <div class="poster_block_small block__winebg">
-          <h2>Reason</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+          <h2>Build Community</h2>
+          <p>Our Activist Members are typically people in their 20s, 30s, and 40s who have experienced gender-based oppression. Solidarity Members support our work and are often connected to our campaigns.</p>
           <button class="dot_button" href="#">
             <span class="sr-only">A Good Reason to Join</span>
             <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
@@ -29,11 +29,11 @@
         </div>
         <div class="poster_block_small block__actionbg type_minipic">
           <div class="img__square_ratio">
-            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/6ec4f84f-49dd-439e-aae7-cef1123eb06e/fpo1.jpg" />
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/1a8234d3-78f3-4e60-8d91-cd96f3a97982/IMG_7531.jpg?content-type=image%2Fjpeg" />
           </div>
           <div class="poster_block_small minipic_text">
-            <h2>Reason</h2>
-            <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <h2>Build power, together</h2>
+            <p>Raise your voice with people who share your belief that a just world is possible.</p>
             <button class="dot_button" href="#">
               <span class="sr-only">A Good Reason to Join</span>
               <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
