@@ -1,0 +1,11 @@
+<div class="max-wrapper">
+  <div class="fast_five_wrap">
+    <div class="fast_five">
+      <h2>Fast Five</h2>
+      <p>Get started with these five resources.</p>
+    </div>
+    <div class="fast_five_list">
+      <squarespace:block-field id="FastFiveCarousel" columns="1"/>
+    </div>
+  </div>
+</div>

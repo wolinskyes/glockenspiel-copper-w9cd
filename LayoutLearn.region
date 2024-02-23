@@ -23,6 +23,7 @@
           {@|apply hero/learn-hero.block}
           {@|apply hero/learn-filter.block}
           {@|apply hero/learn-list.block}
+          {@|apply hero/learn-fastfive.block}
         {.end}
         <squarespace:query collection="library" limit="10">
         <!-- - - - - - - - - - - - -  -->
