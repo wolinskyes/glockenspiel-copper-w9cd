@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
 
     <!-- include system scripts, page meta, and header code injection -->
     {squarespace-headers}
@@ -21,12 +22,13 @@
       <main class="content-container" role="main">
         {.section website}
           {@|apply hero/learn-hero.block}
-          {@|apply hero/learn-filter.block}
-          {@|apply hero/learn-list.block}
-          {@|apply hero/learn-fastfive.block}
         {.end}
-        <squarespace:query collection="library" limit="10">
+        <squarespace:query collection="library" featured="true" limit="5">
         <!-- - - - - - - - - - - - -  -->
+        {@|apply hero/learn-fastfive.block}
+      </squarespace:query>
+        <squarespace:query collection="library" limit="20">
+          {@|apply hero/learn-filter.block}
         {@|apply hero/learn-list.block}
         <!-- - - - - - - - - - - - -  -->
         </squarespace:query>
@@ -34,5 +36,6 @@
       {@|apply common/footer.block}
     </div>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="/scripts/learnpage.min.js"></script>
   </body>
 </html>

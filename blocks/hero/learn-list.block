@@ -8,9 +8,9 @@
       {.end}
 
       <div class="library_read_content">
-        <h2>
+        <h3>
           <a href="{.section url}{.or}{.end}">{title}</a>
-        </h2>
+        </h3>
         <p>{excerpt}</p>
         <h3><a href="{fullUrl}">READ MORE</a></h3>
       </div>

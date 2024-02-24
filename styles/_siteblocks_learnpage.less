@@ -30,6 +30,109 @@
   }
 }
 
+.learn_fastfive {
+  background-color: @theme_gold;
+  padding: 4rem 0;
+
+  .fast_five_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  // tiny slider styles
+
+  .tns-controls,
+  .tns-custom-controls {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+
+
+    button {
+      margin: 0 0.5rem 2rem 0;
+      background: @theme_graphite;
+      color: white;
+      width: 4rem;
+      height: 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+
+      &:first-of-type {
+        transform: scaleX(-1);
+      }
+
+      &:hover {
+        background: @theme_action;
+        img {
+          filter: invert(1);
+        }
+      }
+    }
+  }
+
+  .tns-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .tns-nav-active {
+      opacity: 1;
+    }
+
+    button {
+      width: 10px;
+      height: 10px;
+      opacity: 0.25;
+      background-color: @theme_wine;
+      border: none;
+      border-radius: 50%;
+      margin: 0 0.5rem;
+      cursor: pointer;
+    }
+  }
+
+  // end tiny slider styles
+
+  .fastfive_read_item {
+    max-width: 40vw;
+    background: @theme_ivory;
+    margin: 0 1rem;
+
+    img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+    }
+
+
+  }
+
+  .fastfive_read_content {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+
+    h3 {
+      font-weight: bold;
+      font-size: 1.25rem;
+      letter-spacing: 0.05rem;
+      a {
+        color: inherit;
+        font: inherit;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
 .learn-filter {
   background-color: @theme_wine;
   padding-top: 4rem;
@@ -70,6 +173,7 @@
 .learn_list {
   background-color: @theme_wine;
   padding-bottom: 4rem;
+  padding-top: 4rem;
 
   & > .max-wrapper {
     display: flex;
@@ -87,7 +191,7 @@
   }
 
   .library_read_item {
-    width: 29%;
+    width: 21%;
     height: fit-content;
     margin: 0 1% 2rem 1%;
     background-color: @theme_blush;
@@ -101,7 +205,7 @@
       background-color: white;
     }
 
-    h2 {
+    h3 {
       border: none;
       margin-bottom: 0;
     }
@@ -109,6 +213,8 @@
     img {
       width: 100%;
       height: auto;
+      aspect-ratio: 1;
+      object-fit: cover;
     }
 
     .library_read_content {

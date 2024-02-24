@@ -1,11 +1,29 @@
-<div class="max-wrapper">
-  <div class="fast_five_wrap">
-    <div class="fast_five">
-      <h2>Fast Five</h2>
-      <p>Get started with these five resources.</p>
+<div class="learn_fastfive fullwidth-wrapper">
+  <div class="max-wrapper">
+    <div class="fast_five_intro">
+      <h1>Fast Five</h1>
+      <h3>Get started with these five resources.</h3>
+      <span id="CustomSliderControls" class="tns-custom-controls">
+        <button id="#PrevButton"><img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" /></button>
+      <button id="#NextButton"><img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" /></button>
+      </span>
     </div>
     <div class="fast_five_list">
-      <squarespace:block-field id="FastFiveCarousel" columns="1"/>
+      {.repeated section items}
+      <div class="fastfive_read_item">
+
+        {.section originalSize}
+        <a href="{fullUrl}"><img src="{assetUrl}" alt="{title}" /></a>
+        {.end}
+
+        <div class="fastfive_read_content">
+          <h3>
+            <a href="{.section url}{.or}{.end}">{title}</a>
+          </h3>
+          <p>{excerpt}</p>
+        </div>
+      </div>
+      {.end}
     </div>
   </div>
 </div>
