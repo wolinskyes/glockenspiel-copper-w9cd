@@ -45,13 +45,17 @@
 
   // tiny slider styles
 
+  .tns-item {
+    @media screen and (max-width: @breakpoint_mobile) {
+      min-width: 90vw;
+    }
+  }
+
   .tns-controls,
   .tns-custom-controls {
     width: 100%;
     display: flex;
     justify-content: end;
-
-
 
     button {
       margin: 0 0.5rem 2rem 0;
