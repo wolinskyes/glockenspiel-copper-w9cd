@@ -24,48 +24,5 @@
         </div>
       </div>
       {.end}
-
-
-<!--
-    <div class="events_item">
-      <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/7b4ed397-c823-44b0-98cb-20bc01835f03/fpo7.jpg" />
-      <div class="events_item_body">
-        <h2>Event title</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
-      <button class="button">Event Link</button>
-      </div>
-    </div>
-
-    <div class="events_item">
-      <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/761645d6-2672-4938-baeb-68a5a4d92933/fpo8.jpg" />
-      <div class="events_item_body">
-        <h2>Event title</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
-
-      <button class="button">Event Link</button>
-      </div>
-    </div>
-
-    <div class="events_item">
-      <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/f21780c4-9de7-45d2-8cbd-8b3e314f9802/fpo9.jpg" />
-      <div class="events_item_body">
-        <h2>Event title</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
-      <button class="button">Event Link</button>
-      </div>
-    </div>
-
-    <div class="events_item">
-      <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/1d14311f-427c-49fa-bbc9-c74ad4969f34/fpo10.jpg" />
-      <div class="events_item_body">
-        <h2>Event title</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
-      <button class="button">Event Link</button>
-      </div>
-    </div> -->
-
-
-    <!-- END Events list -->
   </div>
 </div>

@@ -16,7 +16,7 @@
   <body id="{squarespace.page-id}" class="primary_page {squarespace.page-classes}">
     <div class="site-container">
       <header class="site-header">
-        <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+        {@|apply site-navigation.block}
       </header>
 
       <main class="content-container" role="main">
@@ -24,13 +24,11 @@
           {@|apply hero/learn-hero.block}
         {.end}
         <squarespace:query collection="library" featured="true" limit="5">
-        <!-- - - - - - - - - - - - -  -->
-        {@|apply hero/learn-fastfive.block}
-      </squarespace:query>
+          {@|apply hero/learn-fastfive.block}
+        </squarespace:query>
         <squarespace:query collection="library" limit="20">
           {@|apply hero/learn-filter.block}
-        {@|apply hero/learn-list.block}
-        <!-- - - - - - - - - - - - -  -->
+          {@|apply hero/learn-list.block}
         </squarespace:query>
       </main>
       {@|apply common/footer.block}

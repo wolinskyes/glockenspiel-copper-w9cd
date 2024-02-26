@@ -6,4 +6,5 @@ document.addEventListener("DOMContentLoaded", function() {
   // run the attachStickyNav function from _events.js
   _events.attachStickyNav();
   _events.attachDrawerMenu();
+  _events.populateFeaturedDrawerEvent();
 })

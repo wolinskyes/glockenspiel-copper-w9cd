@@ -143,7 +143,7 @@ nav.site-navigation {
 #DrawerContents {
   transform-origin: center;
   transform: translateX(-410px);
-  transition: transform 0.5s ease;
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 
   &.is_open {
     transform: translateX(0px);
@@ -158,12 +158,17 @@ nav.site-navigation {
   height: 100vh;
   overflow-y: scroll;
 
+  #DrawerEventCaption {
+    margin-bottom: 0;
+  }
+
   .drawer_inner_wrap {
     padding: 110px 2rem 2rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    height: fit-content;
+    // height: 100%;
 
     img {
       max-width: 100%;

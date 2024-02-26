@@ -17,10 +17,15 @@ const slider = tns({
   prevButton: buttons[0],
   nextButton: buttons[1],
   responsive: {
+    // min-width equivalent:
     300: {
       edgePadding: 0,
       gutter: 0,
       items: 1
+    },
+    768: {
+      edgePadding: 0,
+      items: 3
     }
   }
 });

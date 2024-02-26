@@ -6,6 +6,32 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrollToPlugin);
 
 export default {
+  populateFeaturedDrawerEvent(){
+    // fetch endpoint, then locate drawer event element
+    // and add image and title from json response
+    const drawerEventElement = document.querySelector('#DrawerEventContainer');
+    const drawerImage = document.querySelector('#DrawerEventImage');
+    const drawerEventCaption = document.querySelector('#DrawerEventCaption');
+    const url = "/events-list?format=json-pretty"
+
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        console.log("DATA",data.items)
+        const firstFeaturedEvent = data.items.find(event => event.starred);
+        if(firstFeaturedEvent){
+          drawerImage.src = firstFeaturedEvent.assetUrl;
+          drawerEventCaption.textContent = firstFeaturedEvent.title;
+          drawerEventElement.href = firstFeaturedEvent.url;
+        } else {
+          drawerEventElement.style.display = 'none';
+        }
+      }
+    ).catch(error => {
+      console.warn('Featured Event fetch failed with:', error);
+    });
+
+  },
   attachDrawerMenu() {
     const drawerOpen = document.querySelector('.drawer-hamburger');
     const drawerClose = document.querySelector('.drawer-close');

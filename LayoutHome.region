@@ -16,7 +16,7 @@
     <div class="site-container">
       <header class="site-header">
         <!-- site navigation -->
-        <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+        {@|apply site-navigation.block}
       </header>
 
       <main class="content-container" role="main">
