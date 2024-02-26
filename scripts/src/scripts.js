@@ -7,4 +7,5 @@ document.addEventListener("DOMContentLoaded", function() {
   _events.attachStickyNav();
   _events.attachDrawerMenu();
   _events.populateFeaturedDrawerEvent();
+  _events.attachMembershipToggle();
 })

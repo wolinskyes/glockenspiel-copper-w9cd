@@ -6,6 +6,17 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrollToPlugin);
 
 export default {
+  attachMembershipToggle() {
+    const membershipClose = document.querySelectorAll('.collapse_btn');
+    if(!membershipClose) return;
+
+    membershipClose.forEach((btn) => {
+      const parentItem = btn.parentElement;
+      btn.addEventListener('click', function() {
+        parentItem.classList.toggle('collapsed');
+      });
+    });
+  },
   populateFeaturedDrawerEvent(){
     // fetch endpoint, then locate drawer event element
     // and add image and title from json response
@@ -50,6 +61,7 @@ export default {
   },
   attachStickyNav() {
     const nav = document.querySelector('#BackToTop');
+    const navlogo = document.querySelector('#TaskForceLogo');
     // nav on click scroll to top
     nav.addEventListener('click', function() {
       gsap.to(window, {duration: 0.125, scrollTo: 0});
@@ -61,9 +73,11 @@ export default {
       end: 'bottom bottom',
       onEnter () {
         nav.classList.add('is_sticky');
+        navlogo.classList.add('is_sticky');
       },
       onLeaveBack () {
         nav.classList.remove('is_sticky');
+        navlogo.classList.remove('is_sticky');
       }
     });
   }

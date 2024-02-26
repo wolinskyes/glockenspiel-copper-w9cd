@@ -92,17 +92,33 @@ nav.site-navigation {
   #TaskForceLogo {
     margin: 0.25rem auto 0 auto;
     width: 240px;
+    transform-origin: center;
+    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+
     img {
       width: 100%;
     }
+
+    &.is_sticky {
+      position: fixed;
+      transform: scale(0.5);
+      left: calc(~"50% - 110px");
+      top: -50px;
+    }
+
     @media screen and (max-width: @breakpoint_mobile) {
       width: 180px;
       margin: 0.25rem auto 0 auto;
+
+      &.is_sticky {
+        position: absolute;
+        display: none;
+      }
     }
   }
 
   #EvergreenNav {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     padding: 0.75rem;

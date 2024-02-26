@@ -157,6 +157,16 @@
     position: relative;
     margin-bottom: 8rem;
 
+    &.collapsed {
+      .membership_item_overview {
+        width: 100%;
+      }
+      .membership_form_embed, .membership_item_image {
+        display: none;
+      }
+
+    }
+
     @media screen and (max-width: @breakpoint_mobile) {
       flex-direction: column;
     }
