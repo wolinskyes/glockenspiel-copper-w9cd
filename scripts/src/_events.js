@@ -10,6 +10,7 @@ export default {
     // fetch endpoint, then locate drawer event element
     // and add image and title from json response
     const drawerEventElement = document.querySelector('#DrawerEventContainer');
+    const drawerLink = document.querySelector('#DrawerEventLink');
     const drawerImage = document.querySelector('#DrawerEventImage');
     const drawerEventCaption = document.querySelector('#DrawerEventCaption');
     const url = "/events-list?format=json-pretty"
@@ -17,10 +18,11 @@ export default {
     fetch(url)
       .then(response => response.json())
       .then(data => {
-        console.log("DATA",data.items)
+        // console.log("DATA",data.items)
         const firstFeaturedEvent = data.items.find(event => event.starred);
         if(firstFeaturedEvent){
           drawerImage.src = firstFeaturedEvent.assetUrl;
+          drawerLink.href = firstFeaturedEvent.fullUrl;
           drawerEventCaption.textContent = firstFeaturedEvent.title;
           drawerEventElement.href = firstFeaturedEvent.url;
         } else {

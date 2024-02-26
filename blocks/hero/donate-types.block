@@ -8,7 +8,7 @@
         <h2>General Fund</h2>
         <p>Along with a portion of membership dues, the general fund covers the cost of actions we take across the state. We incur costs in supplies, technology, travel, and training that are all vital to our work.</p>
         <div class="donate_content_cta">
-          <button class="button bright_button">Paypal</button>
+          <button class="button bright_button"><a href="https://www.paypal.com/paypalme/ywtfgla">Paypal</a></button>
           <!-- <button class="button bright_button">Venmo</button> -->
         </div>
       </div>
@@ -21,7 +21,7 @@
         <h2>The REplenish Fund</h2>
         <p>The REplenish Fund, managed by The Collective, raises funds to support the leadership and political development of BIPOC organizers and activists in the Midwest.</p>
         <div class="donate_content_cta">
-          <button class="button orange_button">Paypal</button>
+          <button class="button orange_button"><a href="https://www.paypal.com/paypalme/ywtfgla">Paypal</a></button>
           <!-- <button class="button orange_button">Venmo</button> -->
         </div>
       </div>
@@ -34,7 +34,7 @@
         <h2>Neighborhood Organizer</h2>
         <p>Neighborhood Organizers give $250 each year to support our work. These organizations or individuals receive recognition at events, trainings, and at our annual Lose Your Friends & Lovers Gala. Includes one individual gift membership at the solidarity or activist membership level.</p>
         <div class="donate_content_cta">
-          <button class="button graphite_button">Become a Neighborhood Organizer</button>
+          <button class="button graphite_button"><a href="https://www.paypal.com/paypalme/ywtfgla">Become a Neighborhood Organizer</a></button>
           <!-- <button class="button orange_button">Venmo</button> -->
         </div>
       </div>

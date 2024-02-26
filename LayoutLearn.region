@@ -20,9 +20,9 @@
       </header>
 
       <main class="content-container" role="main">
-        {.section website}
+        <squarespace:query collection="library" limit="1" category="Monthly Pick">
           {@|apply hero/learn-hero.block}
-        {.end}
+        </squarespace:query>
         <squarespace:query collection="library" featured="true" limit="5">
           {@|apply hero/learn-fastfive.block}
         </squarespace:query>

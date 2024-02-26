@@ -3,16 +3,17 @@
     <div class="memberships_filter">
       <h2>Quick Jump</h2>
       <ul>
-        <li><a class="button" href="#">Activist Member</a></li>
-        <li><a class="button" href="#">Solidarity Member</a></li>
-        <li><a class="button" href="#">Neighborhood Organizer</a></li>
-        <li><a class="button" href="#">Movement Builder</a></li>
+        <li><a class="button" href="#MembershipActivist">Activist Member</a></li>
+        <li><a class="button" href="#MembershipCollective">The Collective</a></li>
+        <li><a class="button" href="#MembershipSolidarity">Solidarity Member</a></li>
+        <li><a class="button" href="#MembershipOrganizer">Neighborhood Organizer</a></li>
+        <li><a class="button" href="#MembershipBuilder">Movement Builder</a></li>
       </ul>
     </div>
 
     <div class="memberships_list">
 
-      <div class="memberships_item">
+      <div class="memberships_item" id="MembershipActivist">
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
           <div class="membership_item_image">
@@ -28,7 +29,7 @@
         </div>
       </div>
 
-      <div class="memberships_item">
+      <div class="memberships_item" id="MembershipCollective">
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
           <div class="membership_item_image">
@@ -44,7 +45,7 @@
         </div>
       </div>
 
-      <div class="memberships_item">
+      <div class="memberships_item" id="MembershipSolidarity">
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
           <div class="membership_item_image">
@@ -60,7 +61,7 @@
         </div>
       </div>
 
-      <div class="memberships_item">
+      <div class="memberships_item" id="MembershipOrganizer">
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
           <div class="membership_item_image">
@@ -77,7 +78,7 @@
         </div>
       </div>
 
-      <div class="memberships_item">
+      <div class="memberships_item" id="MembershipBuilder">
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
           <div class="membership_item_image">

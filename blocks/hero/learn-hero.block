@@ -8,23 +8,33 @@
       <p>Learn more about our friends and comrades as you explore these handpicked resources that will acquaint you with our vision for a world where everyone thrives. Wherever you are in your own political education, there is something here for you.</p>
     </div>
     <div class="posters_rightgroup">
+      {.section items.0}
       <div class="poster_block_small block__actionbg type_minipic">
 
         <div class="poster_block_small minipic_text">
-          <h2>Monthly Pick</h2>
+          <h2>Task Force Pick</h2>
+
           <p>Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
           <button class="dot_button" href="#">
-            <span class="sr-only">A Good Reason to Join</span>
-            <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
+            <a href="{fullUrl}">
+              <span class="sr-only">A Good Reason to Join</span>
+              <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
+            </a>
           </button>
         </div>
         <div class="img__square_ratio">
-          <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/6ec4f84f-49dd-439e-aae7-cef1123eb06e/fpo1.jpg" />
+
+          <img src="{assetUrl}" />
+
         </div>
       </div>
+      {.end}
 
       <div class="poster_block_small block__caption">
-        <h4>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h4>
+        {.section items.0}
+          <h4>{title}</h4>
+          {.end}
+        <!-- <h4>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h4> -->
       </div>
 
     </div>

@@ -94,6 +94,9 @@
   padding: 300px 0 4rem 0;
   margin-top: -150px;
 
+  @media screen and (max-width: @breakpoint_mobile) {
+    padding: 200px 0 4rem 0;
+  }
 
   .homepage_whoweare_posters {
     display: flex;
@@ -157,6 +160,10 @@
   min-height: 50vw;
   padding: 300px 0 4rem 0;
   margin-top: -150px;
+
+  @media screen and (max-width: @breakpoint_mobile) {
+    padding: 200px 0 4rem 0;
+  }
 
   .homepage_values_intro {
     max-width: 45%;
@@ -243,13 +250,15 @@
     flex-basis: 23%;
     padding: @poster_block_padding;
     @media screen and (max-width: @breakpoint_mobile) {
-      flex-basis: 33%;
-      width:33%;
+      flex-basis: 100%;
+      width:100%;
       display: flex;
       flex-direction: column;
-      align-items: start;
-      height: 30vh;
-      min-height: 300px;
+      align-items: center;
+      height: auto;
+      min-height: unset;
+      text-align: center;
+      padding: 1rem;
     }
   }
 

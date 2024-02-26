@@ -12,13 +12,15 @@
 
     <div id="DrawerEventContainer" class="poster_block_medium block__blushbg">
       <h2>Featured Event</h2>
-      <img id="DrawerEventImage" src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/7b691e42-e4f3-48a4-b2d2-d052fbe1f6c6/values3.jpg?content-type=image%2Fjpeg"/>
-      <h4 id="DrawerEventCaption"></h4>
+      <a id="DrawerEventLink" href="#">
+        <img id="DrawerEventImage" src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/7b691e42-e4f3-48a4-b2d2-d052fbe1f6c6/values3.jpg?content-type=image%2Fjpeg"/>
+        <h4 id="DrawerEventCaption">YWTF Action Hour</h4>
+      </a>
     </div>
 
-    <button class="button bright_button">Make a Donation</button>
-    <button class="button neon_button">Join Us</button>
-    <button class="button neon_button">Home</button>
+    <button class="button bright_button"><a href="https://www.paypal.com/paypalme/ywtfgla">Make a Donation</a></button>
+    <button class="button neon_button"><a href="/join-us">Join Us</a></button>
+    <button class="button neon_button"><a href="/">Home</a></button>
 
     <div class="drawer_social_links">
       <a href="https://www.instagram.com/ywtf_lala/"><img src="/assets/icons/icon_insta_white.svg" alt="Task Force Instagram"/></a>
