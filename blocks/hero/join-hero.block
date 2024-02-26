@@ -9,10 +9,10 @@
         <div class="poster_block_small block__orangebg">
           <h2>Build a better Indiana</h2>
           <p>Do you believe a better tomorrow is possible for all of us? We do! We are committed to creating a state where everyone thrives - no exceptions.</p>
-          <button class="dot_button" href="#">
+          <!-- <button class="dot_button" href="#">
             <span class="sr-only">A Good Reason to Join</span>
             <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
-          </button>
+          </button> -->
         </div>
       </div>
 
@@ -22,10 +22,10 @@
         <div class="poster_block_small block__winebg">
           <h2>Build Community</h2>
           <p>Our Activist Members are typically people in their 20s, 30s, and 40s who have experienced gender-based oppression. Solidarity Members support our work and are often connected to our campaigns.</p>
-          <button class="dot_button" href="#">
+          <!-- <button class="dot_button" href="#">
             <span class="sr-only">A Good Reason to Join</span>
             <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
-          </button>
+          </button> -->
         </div>
         <div class="poster_block_small block__actionbg type_minipic">
           <div class="img__square_ratio">
@@ -34,10 +34,10 @@
           <div class="poster_block_small minipic_text">
             <h2>Build power, together</h2>
             <p>Raise your voice with people who share your belief that a just world is possible.</p>
-            <button class="dot_button" href="#">
+            <!-- <button class="dot_button" href="#">
               <span class="sr-only">A Good Reason to Join</span>
               <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
