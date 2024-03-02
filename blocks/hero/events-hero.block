@@ -1,24 +1,31 @@
 <div class="events-hero">
+  <div class="max-wrapper">
   <div class="events_hero_posters">
     <div class="posters_leftgroup intro_block">
       <h1 class="super">Our</h1>
-      <h1 class="super">Events</h1>
-      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</h3>
+      <h1 class="super">Work</h1>
+      <h3>The work we are engaged in today will build a better Indiana for all of us to call home tomorrow. There are so many ways to make a difference, and our organizers are ready to help people like you connect to strategic work across the state that creates change.
+      </h3>
+      <h3>We have everything we need to create a better world except for YOU.</h3>
       <div class="poster_block_small block__goldbg">
-        <h2>Title here</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-        <button class="dot_button" href="#">
-          <span class="sr-only">View Resources</span>
-          <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
-        </button>
+        <h2>What We're Up To</h2>
+        <p>Whether lobbying legislators, learning from our neighbors during a canvassing campaign, or organizing action around issues that affect Hoosiers, there's a way for you to make a difference. Anyone can take action with us regardless of membership status.</p>
       </div>
     </div>
     <div class="posters_rightgroup">
-      <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/6c0a48cd-277d-44fe-ada8-8fcec09c7735/fpo6.jpg" />
-      <img class="icon" src="/assets/icons/icon_insta.svg" />
+      <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/f39ea1c8-5dec-4b23-845c-9422b272970b/main1.jpg?content-type=image%2Fjpeg" />
+      <div class="poster_heroimg_cta">
+        <a href="https://secure.everyaction.com/p/MJKEdyoLHEWsRDpZTsiqpA2?pc=47909&results=True">
+          <h2>Take Action</h2>
+          <button class="dot_button inverted" >
+            <span class="sr-only">View Resources</span>
+            <img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" />
+          </button>
+        </a>
+      </div>
     </div>
   </div>
 </div>
-
+</div>
 
 

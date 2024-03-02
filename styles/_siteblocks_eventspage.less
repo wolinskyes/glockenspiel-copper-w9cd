@@ -1,5 +1,10 @@
 .events-hero {
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  background: linear-gradient(180deg,
+    @theme_blush 85%,
+    @theme_forest 85%
+  );
+
   .events_hero_posters {
     width: 100%;
     display: flex;
@@ -56,11 +61,23 @@
   }
 }
 
+.events_collection_wrap {
+  background-color: @theme_forest;
+  padding-top: 2rem;
+
+  .max-wrapper > h1 {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 .events_collection_list {
   margin-top: 12rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
 
   @media screen and (max-width: @breakpoint_mobile) {
     margin-top: 4rem;
@@ -90,7 +107,7 @@
 
   &:nth-child(odd) {
     background-color: @theme_ivory;
-    margin-top: -6rem;
+    // margin-top: -6rem;
     @media screen and (max-width: @breakpoint_mobile) {
       margin-top: 0rem;
     }

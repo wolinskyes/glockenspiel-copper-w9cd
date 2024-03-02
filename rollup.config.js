@@ -6,7 +6,7 @@ export default [
     output: {
         file: './scripts/scripts.min.js',
         format: 'iife',
-        name: 'ywtf'
+        name: 'ywtf_main'
     },
     plugins: [nodeResolve()]
   },
@@ -15,7 +15,16 @@ export default [
     output: {
         file: './scripts/learnpage.min.js',
         format: 'iife',
-        name: 'ywtf'
+        name: 'ywtf_page_learn'
+    },
+    plugins: [nodeResolve()]
+  },
+  {
+    input: './scripts/src/eventspage.js',
+    output: {
+        file: './scripts/eventspage.min.js',
+        format: 'iife',
+        name: 'ywtf_page_events'
     },
     plugins: [nodeResolve()]
   },

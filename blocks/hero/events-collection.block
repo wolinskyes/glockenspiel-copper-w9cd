@@ -1,5 +1,5 @@
-<div class="events_collection_wrap">
-  <div class="events_collection_filter collection_filter">
+<div class="events_collection_wrap ">
+  <div class="max-wrapper">  <!-- <div class="events_collection_filter collection_filter">
     <h3 class="filter_title">
       Filter Events
     </h3>
@@ -8,9 +8,9 @@
       <option value="upcoming">Upcoming</option>
       <option value="past">Past</option>
     </select>
-  </div>
-  <div class="events_collection_list" data-isotope='{ "itemSelector": ".events_item", "layoutMode": "masonry" }'>
-    <!-- BEGIN Events list -->
+  </div> -->
+  <h1>Come make a difference</h1>
+  <div class="events_collection_list" id="EventsItemsWrapper">
 
       {.repeated section items}
       <div class="events_item">
@@ -25,4 +25,6 @@
       </div>
       {.end}
   </div>
+</div>
+
 </div>
