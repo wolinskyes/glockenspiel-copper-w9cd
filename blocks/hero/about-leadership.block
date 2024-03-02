@@ -2,13 +2,9 @@
   <div class="max-wrapper">
     <div class="about_leadership_posters">
       <div class="posters_leftgroup intro_block">
-        <h1>Leadership</h1>
-        <h1>Heading</h1>
-        <h3>Lorem Ih3sum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-      </div>
-      <div class="posters_rightgroup">
-        <button class="neon_button">@taskforce_321</button>
-        <button class="neon_button">@TFIndiana</button>
+        <h1>Leaders With</h1>
+        <h1>Lived Experiences</h1>
+        <h3>Indiana Task FORCE is a member-led organization that fights for a better state. We center the leadership of people most affected by the issues and trust people to know what they need to be free.</p>
       </div>
     </div>
 
@@ -17,15 +13,15 @@
     <div class="about_leadership_group">
       <div class="posters_leftgroup">
         <div class="poster_block_medium block__jetbg">
-          <h2>CTA Headline</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-          <button class="button">Button Action</button>
+          <h2>Statewide Core Team</h2>
+          <square-space:block-field id="statewideCoreTeam" columns="1"/>
+          <button class="button"><a href="mailto:ywtfgreaterlafayette@gmail.com">Get In Touch</a></button>
         </div>
       </div>
       <div class="posters_rightgroup">
-        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/42741bab-c02c-46f3-b46e-51037f597896/fpo5.jpg" />
+        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/4efb275b-bcfc-4555-832b-eb7dbf54f296/cc2_MG_0338.png?content-type=image%2Fpng" />
         <div class="poster_block_small block__caption">
-          <h4>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h4>
+          <h4>Circle of Directors at 2023 Lose Your Friends & Lovers Gala.</h4>
         </div>
       </div>
     </div>
@@ -34,15 +30,15 @@
     <div class="about_leadership_group">
       <div class="posters_leftgroup">
         <div class="poster_block_medium block__mossbg">
-          <h2>CTA Headline</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-          <button class="button">Button Action</button>
+          <h2>Greater Lafayette (Local 1) Circle of Directors</h2>
+          <square-space:block-field id="circleOfDirectors1" columns="1"/>
+          <button class="button"><a href="mailto:ywtfgreaterlafayette@gmail.com">Connect with Local 1</a></button>
         </div>
       </div>
       <div class="posters_rightgroup">
-        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/42741bab-c02c-46f3-b46e-51037f597896/fpo5.jpg" />
+        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/60243b65-7ad5-4ff7-9735-feef3ece5362/IMG7420729523888865692.jpeg?content-type=image%2Fjpeg" />
         <div class="poster_block_small block__caption">
-          <h4>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h4>
+          <h4>Members of Greater Lafayette Local 1 Circle of Directors</h4>
         </div>
       </div>
     </div>
@@ -51,15 +47,15 @@
     <div class="about_leadership_group">
       <div class="posters_leftgroup">
         <div class="poster_block_medium block__winebg">
-          <h2>CTA Headline</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-          <button class="button">Button Action</button>
+          <h2>Indianapolis (Local 317) Circle of Directors</h2>
+          <square-space:block-field id="circleOfDirectors2" columns="1"/>
+          <button class="button"><a href="mailto:IndyFORCE317@gmail.com">Connect with Local 1</a></button>
         </div>
       </div>
       <div class="posters_rightgroup">
-        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/42741bab-c02c-46f3-b46e-51037f597896/fpo5.jpg" />
+        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/160c6bf1-9fab-4ee2-aa44-53f845e29ee4/cc_MG_0289.png?content-type=image%2Fpng" />
         <div class="poster_block_small block__caption">
-          <h4>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h4>
+          <h4>Indy Local Directors and Members gather at the 2023 Lose Your Friends & Lovers Gala</h4>
         </div>
       </div>
     </div>

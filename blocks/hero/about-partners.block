@@ -1,0 +1,36 @@
+<div class="about_partners">
+  <div class="max-wrapper">
+    <div class="faq_heading">
+      <h1>Who Stands</h1>
+      <h1>With Us</h1>
+      <p>We organize and build power with partners across the state. No one does anything alone. Building community is critical to building progressive power in Indiana.</p>
+      <p>We believe that together, we have everything we need to create a better world.</p>
+    </div>
+    <div class="partners_container">
+      <div class="partners_item">
+        <h4>Statewide and National Partners</h4>
+        <ul>
+          <li>Alliance for Justice</li>
+          <li>All-Options Pregnancy Resource Center</li>
+          <li>Hoosier Abortion Fund</li>
+          <li>Midwest Action Coalition</li>
+          <li>Planned Parenthood Alliance Advocates</li>
+          <li>Run For Something</li>
+        </ul>
+      </div>
+
+      <div class="partners_item">
+        <h4>Local Partners</h4>
+        <ul>
+          <li>Dear Mom Indy</li>
+          <li>Greater Lafayette Immigrant Allies</li>
+          <li>Greater Lafayette Indivisible</li>
+          <li>IBEW Local 668</li>
+          <li>Indy 10 Black Lives Matter</li>
+          <li>Niches Land Trust</li>
+          <li>Standing Up For Racial Justice Greater Lafayette</li>
+          <li>Working Hoosiers Vote</li>
+        </ul>
+      </div>
+    </div>
+</div>

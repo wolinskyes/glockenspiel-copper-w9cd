@@ -1,4 +1,5 @@
 .about-hero {
+  background: linear-gradient(0deg, @theme_gold 25%, @theme_blush 25%);
   h1 {
     display: block;
   }
@@ -17,14 +18,19 @@
     }
   }
 
+  .intro_block p,
   .intro_block h3 {
     padding-right: 4rem;
-    margin-bottom: 10rem;
+  }
 
-    @media screen and (max-width: @breakpoint_mobile) {
-      margin-bottom: 4rem;
-    }
-   }
+  .poster_block_medium {
+    margin-top: 4rem;
+    // @media screen and (max-width: @breakpoint_mobile) {
+    //   margin-top: 4rem;
+    // }
+  }
+
+
 
   .posters_rightgroup {
     width: 50%;
@@ -42,10 +48,10 @@
 .about-leadership {
   background-color: @theme_forest;
   background: linear-gradient(180deg,
-    @theme_forest 40%,
-    @theme_graphite 40%,
-    @theme_graphite 70%,
-    @theme_gold 70%
+    @theme_gold 40%,
+    @theme_wine 40%,
+    @theme_wine 70%,
+    @theme_crimson 70%
   );
   padding-top: 300px;
   margin-top: -150px;
@@ -62,7 +68,7 @@
 
   .about_leadership_posters {
     padding: 3rem 0;
-    color: white;
+    // color: white;
     h1 {
       display: block;
     }
@@ -157,6 +163,131 @@
       min-height: 400px;
     }
   }
+}
+
+.about_demands {
+  background-color: @theme_ivory;
+  padding: 4rem 20vw;
+  text-align: center;
+
+  background: linear-gradient(180deg,
+    @theme_crimson 5%,
+    @theme_ivory 5%
+  );
+
+  @media screen and (max-width: @breakpoint_mobile) {
+    padding: 2rem 0;
+  }
+
+  h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    &:first-of-type {
+      background-color: @theme_action;
+    }
+  }
+
+  .demands_list {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+
+    .demands_item {
+      width: 100%;
+      padding: 4rem;
+      margin-bottom: 2rem;
+      background-color: white;
+      transition: all 0.125s ease-in-out;
+
+      text-align: center;
+
+      h2 {
+        color: inherit;
+        border-color: inherit;
+      }
+
+      &:nth-of-type( 1n ) {
+        background-color: @theme_gold;
+      }
+
+      &:nth-of-type( 2n ) {
+        background-color: @theme_forest;
+        color: @theme_blush;
+      }
+
+      &:nth-of-type( 3n ) {
+        background-color: @theme_crimson;
+        color: @theme_blush;
+      }
+
+      &:nth-of-type( 4n ) {
+        background-color: @theme_moss;
+      }
+
+      &:nth-of-type( 5n ) {
+        background-color: @theme_wine;
+        color: @theme_blush;
+      }
+
+      &:nth-of-type( 6n ) {
+        background-color: @theme_blue;
+        color: @theme_blush;
+      }
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      h3 {
+        margin-bottom: 1rem;
+      }
+
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+}
+
+.about_documentary {
+  background-color: @theme_graphite;
+  background: linear-gradient(180deg,
+    @theme_graphite 85%,
+    @theme_forest 85%
+  );
+  padding: 4rem 0;
+
+  .max-wrapper  {
+    color: @theme_blush;
+    text-align: center;
+  }
+  .about_video_embed {
+    // responsive iframe youtube embed:
+    position: relative;
+    margin-top: 4rem;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.about_partners {
+  background-color: @theme_forest;
+  padding: 4rem 0;
 }
 
 .homepage-social {

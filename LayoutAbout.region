@@ -27,7 +27,13 @@
           {@|apply hero/about-leadership.block}
         </section>
         <section class="fullwidth-wrapper">
-          {@|apply hero/about-timeline.block}
+          {@|apply hero/about-demands.block}
+        </section>
+        <section class="fullwidth-wrapper">
+          {@|apply hero/about-documentary.block}
+        </section>
+        <section class="fullwidth-wrapper">
+          {@|apply hero/about-partners.block}
         </section>
         <section class="fullwidth-wrapper">
           {@|apply hero/homepage-social.block}

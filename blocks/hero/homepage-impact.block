@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="impact_cta">
-      <button class="super_cta_button">Take Action With Us!</button>
+      <button class="super_cta_button"><a href="/join-us">Take Action With Us!</a></button>
     </div>
   </div>
 </div>
