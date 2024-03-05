@@ -1,20 +1,20 @@
 <div class="learn-filter fullwidth-wrapper">
   <div class="max-wrapper">
-    <h2>Search &amp; Sort</h2>
+    <h2>All Resources</h2>
     <div class="filters_ui">
       <div class="collection_filter">
         <h3 class="filter_title">
           Filter Reads
         </h3>
-        <select>
+        <select id="LibraryFilterDropdown">
           <option value="all">All</option>
-          <option value="upcoming">Upcoming</option>
-          <option value="past">Past</option>
+          <option value="Fast Five">Featured</option>
+          <option value="Pick">Staff Pick</option>
         </select>
       </div>
-      <div class="collection_search">
-        <input type="text" placeholder="Search" />
-      </div>
+      <!-- <div class="collection_search" >
+        <input type="text" placeholder="Search" id="LibrarySearchInput" />
+      </div> -->
     </div>
   </div>
 </div>

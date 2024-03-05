@@ -20,7 +20,7 @@
         <div class="events_item_body">
           <h2>{title}</h2>
           <p>{excerpt}</p>
-          <button class="button"><a href="{.section sourceUrl}{sourceUrl}{.or}{fullUrl}{.end}">Event Link</a></button>
+          <button class="button"><a href="{.section sourceUrl}{sourceUrl}{.or}{fullUrl}{.end}">Get Details</a></button>
         </div>
       </div>
       {.end}

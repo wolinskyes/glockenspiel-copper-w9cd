@@ -1,5 +1,3 @@
-
-
 // wait for content to load:
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -9,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
   imagesLoaded(eventsItems, function() {
     // init Isotope after all images have loaded
 
-    new Isotope( eventsItems, {
+    Isotope( eventsItems, {
       // options
       layoutMode: 'masonry',
       itemSelector: '.events_item',

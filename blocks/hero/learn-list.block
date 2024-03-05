@@ -1,7 +1,7 @@
 <div class="learn_list fullwidth-wrapper">
   <div class="max-wrapper" id="LibraryItemsWrapper" >
     {.repeated section items}
-    <div class="library_read_item">
+    <div class="library_read_item" data-categories="all {categories}">
 
       {.section originalSize}
       <img src="{assetUrl}" alt="{title}" />

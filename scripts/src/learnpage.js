@@ -8,16 +8,29 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelector('#NextButton')
   ];
 
-  const libraryItems = document.querySelector("#LibraryItemsWrapper");
+  const libraryWrap = document.querySelector("#LibraryItemsWrapper");
+  const filterDropdown = document.querySelector("#LibraryFilterDropdown");
+  const searchInput = document.querySelector("#LibrarySearchInput");
 
-  imagesLoaded(libraryItems, function() {
-    // init Isotope after all images have loaded
-    libraryItems.isotope({
-      // options...
+  let iso = null;
+
+  imagesLoaded(libraryWrap, function() {
+    iso = new Isotope(libraryWrap,{
       itemSelector: '.library_read_item',
-      layoutMode: 'fitColumns'
+      layoutMode: 'masonry'
     });
+
+
+    filterDropdown.addEventListener('change', function(event) {
+      iso.arrange({
+        filter: function( itemElem ) {
+          return itemElem.dataset.categories.includes(event.target.value);
+        }
+      });
+    });
+
   });
+
 
   // attach isotope to the container:
 
