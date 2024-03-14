@@ -6,7 +6,7 @@
       <img src="/assets/icons/drawer_open.svg" alt="Menu" width="60px" />
     </button>
     {.section website}
-    <div id="SiteMiniTitle">Task Force &mdash; <span>{siteTitle}</span></div>
+    <div id="SiteMiniTitle">Indiana Task <span>FORCE</span></div>
     {.end}
     {@|apply common/drawer.block}
   </div>
