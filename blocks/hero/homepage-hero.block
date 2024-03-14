@@ -6,7 +6,7 @@
         <h1>that matters, together!</h1>
         <h3>We all deserve to live safe, fulfilling lives. Can you imagine an Indiana where we all thrive? We can.</h3>
         <p>Whether surrounded by cornfields, coffeeshops, or concrete, Indiana Task FORCE members are working across the state to create the future we all deserve. We are Feminists Organizing & Reimagining Civic Engagement.</p>
-        <button class="button">Come Join Us</button>
+        <a class="button" href="/join-us">Come Join Us</a>
       </div>
       <div class="poster_block_small block__goldbg">
         <h2>Resources</h2>
@@ -21,8 +21,8 @@
       </div>
       <div class="poster_block_medium block__bluebg">
         <h2>Check out what we're up to</h2>
-        <p>Take action with us across the state. We can't wait to meet you whether in a neighbor’s living room, your favorite tea house, online or in the streets.</p>
-        <button class="button" href="/events">View Events</button>
+        <p>Take action with us across the state. We can't wait to meet you whether in a neighbor's living room, your favorite tea house, online or in the streets.</p>
+        <button class="button" href="/our-work">View Events</button>
       </div>
     </div>
     <div class="posters_rightgroup">

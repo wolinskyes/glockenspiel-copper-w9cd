@@ -18,9 +18,10 @@
       </a>
     </div>
 
-    <button class="button bright_button"><a href="https://www.paypal.com/paypalme/ywtfgla">Make a Donation</a></button>
-    <button class="button neon_button"><a href="/join-us">Join Us</a></button>
-    <button class="button neon_button"><a href="/">Home</a></button>
+    <a class="button bright_button" href="https://www.paypal.com/paypalme/ywtfgla">Make a Donation</a>
+    <a class="button neon_button" href="https://linktr.ee/ywtf_lala">Quick Actions</a>
+    <a class="button neon_button" href="/join-us">Join Us</a>
+    <a class="button neon_button" href="/">Home</a>
 
     <div class="drawer_social_links">
       <a href="https://www.instagram.com/ywtf_lala/"><img src="/assets/icons/icon_insta_white.svg" alt="Task Force Instagram"/></a>

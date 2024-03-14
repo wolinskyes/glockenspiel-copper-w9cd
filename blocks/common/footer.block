@@ -1,21 +1,21 @@
 <footer class="site-footer fullwidth-wrapper">
   <!-- <squarespace:block-field id="footerBlocks" columns="12" /> -->
   <div class="footer_inner max-wrapper">
-    <h2>Bring your voice, and join us!</h2>
+    <h2>Build Power with Us</h2>
     <div class="footer_ctas">
       <div class="footer_cta is_cta_left">
-        <p>Our focus is certainly on changing the things that do not work for us. But more importantly, we want to create new. We need the kind of world we've never seen before.</p>
-        <p>We need the kind of world we've never seen before.</p>
+        <p>We're building power so we can create the state we can all be proud to call home.</p>
+        <p>Do you care about creating safe, thriving communities across Indiana? So do we! JOIN US. </p>
         <button class="button">Mailing List</button>
       </div>
       <div class="footer_cta is_cta_center">
         <squarespace:navigation navigationId="siteNav" template="common/navlinks" />
       </div>
       <div class="footer_cta is_cta_right">
-        <button class="bright_button">@taskforce_321</button>
-        <button class="bright_button">#TFIndiana</button>
-        <button class="bright_button">765.222.1111</button>
-
+        <a href="https://www.instagram.com/ywtf_lala/" class="bright_button">@YWTF_lala</a>
+        <a href="https://www.instagram.com/explore/tags/outinforce/" class="bright_button">#OutInFORCE</a>
+        <a href="https://linktr.ee/ywtf_lala" class="bright_button">LinkTree</a>
+        <a href="mailto:YWTFGreaterLafayette@gmail.com" class="bright_button">Email Us</a>
       </div>
     </div>
     <div class="final_details">
