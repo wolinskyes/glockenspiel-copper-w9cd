@@ -9,9 +9,8 @@
       <option value="past">Past</option>
     </select>
   </div> -->
-  <h1>Come make a difference</h1>
+  <h1>Create the State You're Proud to Call Home</h1>
   <div class="events_collection_list" id="EventsItemsWrapper">
-
       {.repeated section items}
       <div class="events_item">
         {.section originalSize}
