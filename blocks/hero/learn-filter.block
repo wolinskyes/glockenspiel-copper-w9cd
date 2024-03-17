@@ -6,7 +6,7 @@
         <h3 class="filter_title">
           Filter Reads
         </h3>
-        <select id="LibraryFilterDropdown">
+        <select id="LibraryFilterDropdown" aria-label="Filter Reads">
           <option value="all">All</option>
           <option value="Fast Five">Featured</option>
           <option value="Pick">Staff Pick</option>

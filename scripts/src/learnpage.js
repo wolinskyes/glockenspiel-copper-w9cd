@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
     items: 3,
     slideBy: 'page',
     controlsPosition: 'top',
-    navPosition: 'bottom',
+    navPosition: 'top',
     controlsContainer: '.tns-custom-controls',
     prevButton: buttons[0],
     nextButton: buttons[1],

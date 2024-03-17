@@ -24,7 +24,7 @@
         </div>
         <div class="img__square_ratio">
 
-          <img src="{assetUrl}" />
+          <img src="{assetUrl}"  alt="{title} Cover" />
 
         </div>
       </div>

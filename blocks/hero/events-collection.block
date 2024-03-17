@@ -1,14 +1,5 @@
 <div class="events_collection_wrap ">
-  <div class="max-wrapper">  <!-- <div class="events_collection_filter collection_filter">
-    <h3 class="filter_title">
-      Filter Events
-    </h3>
-    <select>
-      <option value="all">All</option>
-      <option value="upcoming">Upcoming</option>
-      <option value="past">Past</option>
-    </select>
-  </div> -->
+  <div class="max-wrapper">
   <h1>Create the State You're Proud to Call Home</h1>
   <div class="events_collection_list" id="EventsItemsWrapper">
       {.repeated section items}

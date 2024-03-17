@@ -4,8 +4,8 @@
       <h1>Fast Five</h1>
       <h3>Get started with these five resources.</h3>
       <span id="CustomSliderControls" class="tns-custom-controls">
-        <button id="#PrevButton"><img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" /></button>
-      <button id="#NextButton"><img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" /></button>
+        <button id="#PrevButton" title="Previous Item"><img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" /></button>
+      <button id="#NextButton" title="Next Item"><img src="/assets/icons/btn_dot_arrow.svg" alt="Open Link" width="60px" /></button>
       </span>
     </div>
     <div class="fast_five_list">

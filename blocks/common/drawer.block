@@ -13,7 +13,7 @@
     <div id="DrawerEventContainer" class="poster_block_medium block__blushbg">
       <h2>Featured Event</h2>
       <a id="DrawerEventLink" href="#">
-        <img id="DrawerEventImage" src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/7b691e42-e4f3-48a4-b2d2-d052fbe1f6c6/values3.jpg?content-type=image%2Fjpeg"/>
+        <img id="DrawerEventImage" title="Come Join Us" src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/7b691e42-e4f3-48a4-b2d2-d052fbe1f6c6/values3.jpg?content-type=image%2Fjpeg"/>
         <h4 id="DrawerEventCaption">YWTF Action Hour</h4>
       </a>
     </div>
