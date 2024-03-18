@@ -17,7 +17,7 @@
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
           <div class="membership_item_image">
-            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/4cee323e-27b3-4ca9-9c26-d6d4921b3051/IMG_8427.jpg?content-type=image%2Fjpeg" />
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/4cee323e-27b3-4ca9-9c26-d6d4921b3051/IMG_8427.jpg?content-type=image%2Fjpeg"  alt="Members pose for the camera" />
           </div>
           <div class="membership_item_content">
             <h2>Activist Member</h2>
@@ -33,7 +33,7 @@
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
           <div class="membership_item_image">
-            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/cbe009d5-60b2-4156-955c-bc588318c1ff/IMG_9868.jpg?content-type=image%2Fjpeg" />
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/cbe009d5-60b2-4156-955c-bc588318c1ff/IMG_9868.jpg?content-type=image%2Fjpeg"  alt="Members of color on a forest hike" />
           </div>
           <div class="membership_item_content">
             <h2>The Collective</h2>
@@ -49,7 +49,7 @@
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
           <div class="membership_item_image">
-            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/f5f80e2d-e032-455b-9b30-44d8bae0fab9/IMG_8906.jpg?content-type=image%2Fjpeg" />
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/f5f80e2d-e032-455b-9b30-44d8bae0fab9/IMG_8906.jpg?content-type=image%2Fjpeg"  alt="Members holding cards that collectively spell Solidarity" />
           </div>
           <div class="membership_item_content">
             <h2>Solidarity Member</h2>
@@ -65,7 +65,7 @@
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
           <div class="membership_item_image">
-            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/b54ca016-8468-4489-8296-d261270518f4/IMG_1874.jpg?content-type=image%2Fjpeg" />
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/b54ca016-8468-4489-8296-d261270518f4/IMG_1874.jpg?content-type=image%2Fjpeg" alt="Members at our Gala posing with signs" />
           </div>
           <div class="membership_item_content">
             <h2>Neighborhood Organizer</h2>
@@ -82,7 +82,7 @@
         <div class="collapse_btn">Collapse</div>
         <div class="membership_item_overview">
           <div class="membership_item_image">
-            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/dc74acd5-649a-4321-b716-10a49ae53d90/IMG_1873.jpg?content-type=image%2Fjpeg" />
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/dc74acd5-649a-4321-b716-10a49ae53d90/IMG_1873.jpg?content-type=image%2Fjpeg" alt="A large group of people at their tables listening to Gala event speakers" />
           </div>
           <div class="membership_item_content">
             <h2>Movement Builder</h2>

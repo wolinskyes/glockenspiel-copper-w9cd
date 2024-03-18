@@ -5,7 +5,7 @@
         <div id="JoinBadge">
           <img src="/assets/join_badge.svg" alt="Join Task Force" width="100px" />
         </div>
-        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/8816cded-859a-42a6-92e2-0f20d12afea1/IMG_3757.jpeg?content-type=image%2Fjpeg" />
+        <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/8816cded-859a-42a6-92e2-0f20d12afea1/IMG_3757.jpeg?content-type=image%2Fjpeg" alt="Task Force members sitting on a couch." />
         <div class="poster_block_small block__orangebg">
           <h2>Build a better Indiana</h2>
           <p>Do you believe a better tomorrow is possible for all of us? We do! We are committed to creating a state where everyone thrives - no exceptions.</p>
@@ -29,7 +29,7 @@
         </div>
         <div class="poster_block_small block__actionbg type_minipic">
           <div class="img__square_ratio">
-            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/1a8234d3-78f3-4e60-8d91-cd96f3a97982/IMG_7531.jpg?content-type=image%2Fjpeg" />
+            <img src="https://images.squarespace-cdn.com/content/65b00da2942651425ca1a7f4/1a8234d3-78f3-4e60-8d91-cd96f3a97982/IMG_7531.jpg?content-type=image%2Fjpeg"  alt="Task force members campaigning" />
           </div>
           <div class="poster_block_small minipic_text">
             <h2>Build power, together</h2>
