@@ -4,9 +4,9 @@
     <h2>Build Power with Us</h2>
     <div class="footer_ctas">
       <div class="footer_cta is_cta_left">
-        <p>We're building power so we can create the state we can all be proud to call home.</p>
-        <p>Do you care about creating safe, thriving communities across Indiana? So do we! JOIN US. </p>
-        <button class="button">Mailing List</button>
+        <p>Do you care about creating safe, thriving communities across Indiana? We do!</p>
+        <p>Join us and help create the state we can all be proud to call home. </p>
+        <a class="button" href="https://secure.everyaction.com/Y59j6WLLdEKAJY3wneej6w2">Mailing List</a>
       </div>
       <div class="footer_cta is_cta_center">
         <squarespace:navigation navigationId="siteNav" template="common/navlinks" />
