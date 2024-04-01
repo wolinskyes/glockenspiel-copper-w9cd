@@ -21,8 +21,8 @@
       </div>
       <div class="poster_block_medium block__bluebg">
         <h2>Check out what we're up to</h2>
-        <p>Take action with us across the state. We can't wait to meet you whether in a neighbor's living room, your favorite tea house, online or in the streets.</p>
-        <button class="button" href="/our-work">View Events</button>
+        <p>Take action with us across the state. We can't wait to meet you whether in a neighbor's living room, your favorite coffee spot, online or in the streets.</p>
+        <a class="button" href="/our-work">View Events</a>
       </div>
     </div>
     <div class="posters_rightgroup">

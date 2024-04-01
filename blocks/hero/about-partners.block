@@ -17,26 +17,26 @@
       <div class="partners_item">
         <h4>Statewide and National Partners</h4>
         <ul>
-          <li><a href="#" class="button">Alliance for Justice</a></li>
-          <li><a href="#" class="button">All-Options Pregnancy Resource Center</a></li>
-          <li><a href="#" class="button">Hoosier Abortion Fund</a></li>
-          <li><a href="#" class="button">Midwest Action Coalition</a></li>
-          <li><a href="#" class="button">Planned Parenthood Alliance Advocates</a></li>
-          <li><a href="#" class="button">Run For Something</a></li>
+          <li><a href="https://afj.org/" class="button">Alliance for Justice</a></li>
+          <li><a href="https://alloptionsprc.org/" class="button">All-Options</a></li>
+          <li><a href="https://alloptionsprc.org/hoosier-abortion-fund/" class="button">Hoosier Abortion Fund</a></li>
+          <li><a href="https://www.midwestaccesscoalition.org/" class="button">Midwest Access Coalition</a></li>
+          <li><a href="https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates" class="button">Planned Parenthood Alliance Advocates</a></li>
+          <li><a href="https://runforsomething.net/" class="button">Run For Something</a></li>
         </ul>
       </div>
 
       <div class="partners_item">
         <h4>Local Partners</h4>
         <ul>
-          <li><a href="#" class="button">Dear Mom Indy</a></li>
-          <li><a href="#" class="button">Greater Lafayette Immigrant Allies</a></li>
-          <li><a href="#" class="button">Greater Lafayette Indivisible</a></li>
-          <li><a href="#" class="button">IBEW Local 668</a></li>
-          <li><a href="#" class="button">Indy 10 Black Lives Matter</a></li>
-          <li><a href="#" class="button">Niches Land Trust</a></li>
-          <li><a href="#" class="button">Standing Up For Racial Justice Greater Lafayette</a></li>
-          <li><a href="#" class="button">Working Hoosiers Vote</a></li>
+          <li><a href="https://www.instagram.com/dear.mom.indy/" class="button">Dear Mom Indy</a></li>
+          <li><a href="https://www.facebook.com/GreaterLafayetteImmigrantAllies/" class="button">Greater Lafayette Immigrant Allies</a></li>
+          <li><a href="https://www.lafayetteindivisible.com/" class="button">Greater Lafayette Indivisible</a></li>
+          <li><a href="https://www.ibew668.org/" class="button">IBEW Local 668</a></li>
+          <li><a href="https://www.facebook.com/Indy10People" class="button">Indy 10 Black Lives Matter</a></li>
+          <li><a href="https://nicheslandtrust.org/" class="button">Niches Land Trust</a></li>
+          <li><a href="https://surj.org/chapter/surj-greater-lafayette/" class="button">Standing Up For Racial Justice Greater Lafayette</a></li>
+          <li><a href="https://indianavoters.in.gov/" class="button">Working Hoosiers Vote</a></li>
         </ul>
       </div>
 
