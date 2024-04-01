@@ -12,7 +12,7 @@
           <a href="{.section url}{.or}{.end}" alt="{title}">{title}</a>
         </h3>
         <p>{excerpt}</p>
-        <h3><a href="{fullUrl}">READ MORE</a></h3>
+        <h3><a href="{.section sourceUrl}{sourceUrl}{.or}{fullUrl}{.end}">READ MORE</a></h3>
       </div>
 
     </div>
