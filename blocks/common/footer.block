@@ -12,9 +12,9 @@
         <squarespace:navigation navigationId="siteNav" template="common/navlinks" />
       </div>
       <div class="footer_cta is_cta_right">
-        <a href="https://www.instagram.com/ywtf_lala/" class="bright_button">@YWTF_lala</a>
+        <a href="https://www.instagram.com/indianataskforce/" class="bright_button" alt="Instagram Link for Indiana Task Force">@IndianaTaskFORCE</a>
         <a href="https://www.instagram.com/explore/tags/outinforce/" class="bright_button">#OutInFORCE</a>
-        <a href="https://linktr.ee/ywtf_lala" class="bright_button">LinkTree</a>
+        <a href="https://linktr.ee/indianataskforce" class="bright_button">LinkTree</a>
         <a href="mailto:YWTFGreaterLafayette@gmail.com" class="bright_button">Email Us</a>
       </div>
     </div>
