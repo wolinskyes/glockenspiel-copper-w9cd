@@ -21,7 +21,9 @@
     <div class="final_details">
       <h3>@taskforce 2024</h3>
       <h3>made in indiana</h3>
-      <h3><a href="/sitemap.xml">site map</a></h3>
+      <h3><a href="/privacy-policy">Privacy Policy</a></h3>
+      <h3><a href="/sitemap.xml">Mobile Terms of Service</a></h3>
+      <h3><a href="/mobile-terms">site map</a></h3>
     </div>
 </footer>
 <script src="/scripts/scripts.min.js"></script>
