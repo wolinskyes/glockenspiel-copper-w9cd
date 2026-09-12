@@ -21,7 +21,7 @@
       <main class="content-container" role="main">
         {.section website}
           {@|apply hero/join-hero.block}
-          {@|apply hero/join-memberships.block}
+          <!-- {@|apply hero/join-memberships.block} -->
         {.end}
       </main>
       {@|apply common/footer.block}

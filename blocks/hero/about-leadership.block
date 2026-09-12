@@ -15,7 +15,7 @@
         <div class="poster_block_medium block__jetbg">
           <h2>Statewide Core Team</h2>
           <squarespace:block-field id="statewideCoreTeam" columns="1"/>
-          <button class="button"><a href="mailto:ywtfgreaterlafayette@gmail.com">Get In Touch</a></button>
+          <button class="button"><a href="mailto:hello@indianataskforce.org">Get In Touch</a></button>
         </div>
       </div>
       <div class="posters_rightgroup">
@@ -32,7 +32,7 @@
         <div class="poster_block_medium block__mossbg">
           <h2>Greater Lafayette (Local 1) Circle of Directors</h2>
           <squarespace:block-field id="circleOfDirectors1" columns="1"/>
-          <button class="button"><a href="mailto:ywtfgreaterlafayette@gmail.com">Connect with Local 1</a></button>
+          <button class="button"><a href="mailto:hello@indianataskforce.org">Connect with Local 1</a></button>
         </div>
       </div>
       <div class="posters_rightgroup">
